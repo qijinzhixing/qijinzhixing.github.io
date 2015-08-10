@@ -1,87 +1,233 @@
-<!DOCTYPE html>
+
+
+<!DOCTYPE HTML>
 <html>
 <head>
   <meta charset="utf-8">
   
   <title>Hexo</title>
+  <meta name="author" content="John Doe">
+  
+  
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-<meta name="twitter:description">
+
   
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  <meta property="og:site_name" content="Hexo"/>
+
   
-  
-    <link rel="icon" href="/favicon.png">
-  
-  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <meta property="og:image" content="undefined"/>
   
 
+  <link href="/favicon.ico" rel="icon" type="image/x-ico">
+  <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script src="//libs.baidu.com/jquery/1.8.0/jquery.min.js"></script>
 </head>
+
+
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
+  <header id="header" class="inner">
+<div class="alignleft">
+  <h1><a href="/">Hexo</a></h1>
+  <h2><a href="/"></a></h2>
+</div>
+<nav id="main-nav" class="alignright">
+  <ul>
+    
+      <li><a href="/">首页</a></li>
+    
+      <li><a href="/archives">归档</a></li>
+    
+      <li><a href="/about">关于</a></li>
+    
+      <li><a href="/todolist">ToDo</a></li>
+    
+	<li> <a href="/atom.xml">RSS</a> </li>
+<li> <a title="把这个链接拖到你的Chrome收藏夹工具栏中" href='javascript:(function() {
+	function c() {
+		var e = document.createElement("link");
+		e.setAttribute("type", "text/css");
+		e.setAttribute("rel", "stylesheet");
+		e.setAttribute("href", f);
+		e.setAttribute("class", l);
+		document.body.appendChild(e)
+	}
+ 
+	function h() {
+		var e = document.getElementsByClassName(l);
+		for (var t = 0; t < e.length; t++) {
+			document.body.removeChild(e[t])
+		}
+	}
+ 
+	function p() {
+		var e = document.createElement("div");
+		e.setAttribute("class", a);
+		document.body.appendChild(e);
+		setTimeout(function() {
+			document.body.removeChild(e)
+		}, 100)
+	}
+ 
+	function d(e) {
+		return {
+			height : e.offsetHeight,
+			width : e.offsetWidth
+		}
+	}
+ 
+	function v(i) {
+		var s = d(i);
+		return s.height > e && s.height < n && s.width > t && s.width < r
+	}
+ 
+	function m(e) {
+		var t = e;
+		var n = 0;
+		while (!!t) {
+			n += t.offsetTop;
+			t = t.offsetParent
+		}
+		return n
+	}
+ 
+	function g() {
+		var e = document.documentElement;
+		if (!!window.innerWidth) {
+			return window.innerHeight
+		} else if (e && !isNaN(e.clientHeight)) {
+			return e.clientHeight
+		}
+		return 0
+	}
+ 
+	function y() {
+		if (window.pageYOffset) {
+			return window.pageYOffset
+		}
+		return Math.max(document.documentElement.scrollTop, document.body.scrollTop)
+	}
+ 
+	function E(e) {
+		var t = m(e);
+		return t >= w && t <= b + w
+	}
+ 
+	function S() {
+		var e = document.createElement("audio");
+		e.setAttribute("class", l);
+		e.src = i;
+		e.loop = false;
+		e.addEventListener("canplay", function() {
+			setTimeout(function() {
+				x(k)
+			}, 500);
+			setTimeout(function() {
+				N();
+				p();
+				for (var e = 0; e < O.length; e++) {
+					T(O[e])
+				}
+			}, 15500)
+		}, true);
+		e.addEventListener("ended", function() {
+			N();
+			h()
+		}, true);
+		e.innerHTML = " <p>If you are reading this, it is because your browser does not support the audio element. We recommend that you get a new browser.</p> <p>";
+		document.body.appendChild(e);
+		e.play()
+	}
+ 
+	function x(e) {
+		e.className += " " + s + " " + o
+	}
+ 
+	function T(e) {
+		e.className += " " + s + " " + u[Math.floor(Math.random() * u.length)]
+	}
+ 
+	function N() {
+		var e = document.getElementsByClassName(s);
+		var t = new RegExp("\\b" + s + "\\b");
+		for (var n = 0; n < e.length; ) {
+			e[n].className = e[n].className.replace(t, "")
+		}
+	}
+ 
+	var e = 30;
+	var t = 30;
+	var n = 350;
+	var r = 350;
+	var i = "//s3.amazonaws.com/moovweb-marketing/playground/harlem-shake.mp3";
+	var s = "mw-harlem_shake_me";
+	var o = "im_first";
+	var u = ["im_drunk", "im_baked", "im_trippin", "im_blown"];
+	var a = "mw-strobe_light";
+	var f = "//s3.amazonaws.com/moovweb-marketing/playground/harlem-shake-style.css";
+	var l = "mw_added_css";
+	var b = g();
+	var w = y();
+	var C = document.getElementsByTagName("*");
+	var k = null;
+	for (var L = 0; L < C.length; L++) {
+		var A = C[L];
+		if (v(A)) {
+			if (E(A)) {
+				k = A;
+				break
+			}
+		}
+	}
+	if (A === null) {
+		console.warn("Could not find a node of the right size. Please try a different page.");
+		return
+	}
+	c();
+	S();
+	var O = [];
+	for (var L = 0; L < C.length; L++) {
+		var A = C[L];
+		if (v(A)) {
+			O.push(A)
+		}
+	}
+})()    '>High一下</a> </li>
+
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<div class="clearfix"></div></header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper">
+  <article class="post">
+  
+    <div class="gallery">
+  <div class="photoset">
+    
+      <img src="">
+    
+  </div>
+  <div class="control">
+    <div class="prev"></div>
+    <div class="next"></div>
+  </div>
+</div>
+  
+  <div class="post-content">
+    <header>
       
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
+        <div class="icon"></div>
+        <time datetime="2015-08-10T01:01:31.233Z"><a href="/2015/08/10/hello-world/">2015-08-10</a></time>
+      
+      
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/08/10/hello-world/" class="article-date">
-  <time datetime="2015-08-10T01:01:31.233Z" itemprop="datePublished">2015-08-10</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/08/10/hello-world/">Hello World</a>
-    </h1>
+    <h1 class="title"><a href="/2015/08/10/hello-world/">Hello World</a></h1>
   
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
+    </header>
+    <div class="entry">
       
         <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
@@ -95,42 +241,46 @@
 
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/08/10/hello-world/" data-id="cid580u960000xoq07umhqgsm" class="article-share-link">Share</a>
+    <footer>
       
+        
+        
       
+      <div class="clearfix"></div>
     </footer>
   </div>
-  
 </article>
 
 
-  
-    <article id="post-my-new-post" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/08/09/my-new-post/" class="article-date">
-  <time datetime="2015-08-09T11:54:23.000Z" itemprop="datePublished">2015-08-09</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/阅读笔记/">阅读笔记</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
+
+  <article class="post">
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/08/09/my-new-post/">阅读笔记，《你的知识需要管理》，田志刚</a>
-    </h1>
+    <div class="gallery">
+  <div class="photoset">
+    
+      <img src="">
+    
+  </div>
+  <div class="control">
+    <div class="prev"></div>
+    <div class="next"></div>
+  </div>
+</div>
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2015-08-09T11:54:23.000Z"><a href="/2015/08/09/my-new-post/">2015-08-09</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2015/08/09/my-new-post/">阅读笔记，《你的知识需要管理》，田志刚</a></h1>
   
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
+    </header>
+    <div class="entry">
       
         <p>#第一章，你的知识问题<br>　　现在，所谓物质不是指没有知识，而是不会展示自己的知识、不会发挥知识的价值、不会发现新知识、不会使用新知识、也不会去创造新知识。对于主要靠知识谋生的知识工作者而言，你的知识管理过程是否运转自如，是个人发展和个人竞争力能否持续提升的关键。<br>　　好单位，好爸爸，好老公，稳定的职位统统靠不住，那我们依靠什么？自己！<br>　　靠自己的劳动挣自己的饭并不丢人，丢人的是那些高水平工作做不了，低水平工作又不愿意做的“啃老族”。<br>　　要想成为一个有成就的人，你必须依靠自己。我们每个人都有自己的大 脑，都应该有自己的独立判断。人只要活着，就是一个问题连着一个问题，每 个人都必须面对生活中的各种矛盾和复杂的人际关系，没有人可以替代你，你 也不可能永远依赖他人。<br>　　一个人的人生之路要靠自己走完，没有人可以代替你走。种下什么因，收 获什么果，你选择什么样的人生路程，你要如何付出，你希望什么样的收获， 没有人可以替你做主。<br>　　如果你认同人应该依靠自己，那么接下来的问题是：你应该靠自己什么？人应该靠自己，但靠自己不是依靠自己的体力，而是要靠自己的脑力，靠知识。<br>　　数据，信息，知识。单纯的数据不能表达意思。信息赋予了数据环境。知识是经过实践证明的、可以用来决策和行动的信息。这三者的关系在于：第一，没有信息，知识就无法发挥作用；第二，如果只有数据和信息，没有知识来参与判断，信息就毫无作用；第三，数据和信息的获取相对简单。<br>　　显性知识和隐性知识。所谓显性知识是指能够用语言、文字、肢体等方式表达清楚的知识；而隐性知识则是虽然知道如何做，但却很难告诉别人或者写明白、说明白的知识。<br>　　将自己的隐性知识显性化应该成为每个知识工作者应具备的能力之一。<br>　　不能用通俗、简单的语音和文字表述知识，表明对该领域知识掌握得不够深入。<br>　　个人知识管理过程：学习知识，保存知识，共享知识，使用知识，创造知识。<br>　　我们的文化中，习惯强调知识的学习而较少谈论学习知识后干什么。为什么学习知识？如何应用这些知识？<br>　　五个知识问题每个人都或多或少存在着，只不过在不同的阶段，问题的重点不一样。建议的做法是：在工作的头十年，更多关注知识的学习、知识的存储和知识的共享，第二个十年更多的关注知识的共享、知识的利用和知识的创新。</p>
 <p>#第二章，学习知识<br>　　不学习当然不行，但学习也不一定行。你必须知道要学习什么知识，获取什么知识；同时，学习任何领域的知识必须达到一定的深度，否则你的知识就是常识。而常识怎么可能给你带来个人的竞争优势呢？<br>　　热爱学习没有错，但是对于社会上的大部分人来说，学习的目的就是为了创造更多的个人价值和竞争优势。<br>　　学习本身不是目的。学习知识是为了我们能够工作、生活得更好，更幸福，能帮助我们度过快乐的一生。学习的目的是为了提高我们个人的竞争力，是我们能够在这么多的知识工作者中脱颖而出，取得自己的成就。<br>　　如果你有了终身学习的理念并热爱学习的话，那么你面临的第一个问题是该学习什么，第二个问题是学习的深度——对于一个领域的知识要学习到什么程度才算合适？<br>　　构建和谐人际关系的基础，除了沟通、交流的技巧外，本质上是要拥有彼此差不多的知识基础。就如《潜伏》中的余则成和翠萍，在真实的生活中很难成为夫妻和朋友，因为他们缺乏共同的知识基础。估计我们每个人都有这样的感受，如果两个人知识背景相差很大，就很难产生沟通、交流的欲望，很难真正地交流思想和分享知识，最多是一方照顾另一方的沟通。<br>　　知识工作者需要的基础知识是哪些？应该如何知道自己掌握了哪些知识呢？可以找找每年国家公务员考试中基础知识部分的题目，自己做一下测试。它的内容涵盖了哲学、政治、经济、文化、法律、科学、数学、逻辑、阅读、表达等各个方面，通过做这种测试你可以发现自己最擅长和最差的领域。<br>　　那么如何选择只是学习的方向呢？要回答这个问题，本质就吃了解你自己：你想要成为什么样的人，你的兴趣是什么？你的优势是什么？这里的原则就是，在众多的兴趣中做减法：聚焦。利用自己的优势达到某个领域的专家的水平。<br>　　了解自我的方法和工具：<br>　　第一，你的价值观是什么？参见常见价值观表，此阶段我的价值观是智力<br>　　第二，你的个人目标是什么？长期和短期<br>　　第三，你的性格是什么？性格测试，例如MBTI职业测试<br>　　第四，求求你，表扬我。人熟悉的人告诉你，你的个人优势是什么？<br>　　你应该学习到什么程度呢？建议是，了解你的优势，确定你的目标后，起码在一个领域的学习时间要达到三年以上，才能成为这个知识领域的专家。<br>　　知识的结构？第一层，基础知识；第二层，系统的专业知识；第三层，专业知识，最新成就、技术发展、方向和动态的知识。<br>　　关于学习的方法，每个人都有自己最适合和擅长的学习方式，充分利用自己最擅长的方式是提升学习效率的少方法。重要的是达到掌握知识的目的。<br>　　获取知识的成本？1.耗时长，价值高，斟酌替代方案；2.耗时短，价值高，投资；3.耗时短，价值低，斟酌；4.耗时长，价值低，抛弃。<br>　　你的学习方法的模型：<br>　　第一，掌握该领域的基础知识。可以是读教材，请有经验的人推荐，看一些经典的书籍等。<br>　　第二，了解该领域的全貌。大量泛读，利用搜索引擎，确定该领域的专家有哪些人，与该领域的专家进行交流和学习，反思自己的工作经验和教训，不断提高自己。<br>　　第三，跟踪并掌握该领域的最新知识。可以用RSS跟踪，也可以是保持与行业专家定时交流、沟通。<br>　　第四，在实践中学习和创新。知识的创新离不开实践，在实践中才能产生真正的创新。<br>　　模型中的各个阶段是一个循环往复的过程。<br>　　个人学习中的重要能力<br>　　首先是检索信息和知识的能力。<br>　　第二，掌握搜索引擎的常用技巧。<br>　　第三，搜索引擎并非是最高效的方式。<br>　　如何判断信息是否对我们有用？解决之道：对信息和知识的评估是一个比较复杂的过程，我们很难想象让一个十几岁的孩子去评估一篇信息化方案。所以信息和知识评估首先涉及的是个人信息和知识素养的问题。所谓个人信息素养是指个人利用信息及相关载体与外界做合理而有效的沟通和互动所需具备的能力。在信息评估中，对个人是否有价值这是第一原则。<br>　　学习的具体方法？<br>　　方法一：阅读经典书籍。<br>　　方法二：隐性知识学习，人际学习。最重要的是建立自己的人际网络，而建立人际网络的基础在于你自己有内涵，是要清楚对方擅长什么。所以有一个技巧是，尽可能全面地保存联系人的资料、背景、什么状态下认识的、聊了什么话题等等。再者，需要交流思想、交换资源，建立初步的信任。也可以是和不同行业的人交往。<br>　　方法三：在工作和生活中学习，每天增长一点的。对于知识工作者来说，在工作中学习，做完事情后的总结、提炼、提升是最大和最好的学习机会，而且中工作中学习得到的经验要比读书的效率提高很多。那么如何学习？又学习什么呢？这需要不断思考，在做不同事情的过程中寻找相似性，找到需要学习的“点”，制定出自己事后学习的模板。<br>　　方法四：学习你的企业。不要抱怨你的企业和工作甚至领导。再烂的企业也有你需要学习的地方：商业模式、企业文化、产品定位、研发和管理，甚至是一些人和事。<br>　　方法五：四象限知识的学习法。第一类，知道自己知道；第二类，不知道自己知道；第三类，不知道自己不知道；第四类，知道自己不知道。重点是“知道自己不知道”的学习。<br>　　学习的工具有：搜索引擎，维基、百科型网站，问答型社区，在线论文库，信息评价工具（豆瓣、美味书签），信息阅读工具（RSS）</p>
@@ -141,110 +291,113 @@
 
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/08/09/my-new-post/" data-id="cid580ua80001xoq0sl1e2zj7" class="article-share-link">Share</a>
+    <footer>
       
+        
+        
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/知识管理/">知识管理</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/阅读笔记/">阅读笔记</a></li></ul>
-
+      <div class="clearfix"></div>
     </footer>
   </div>
-  
 </article>
 
 
+
+
+
+<nav id="pagination">
   
   
-</section>
-        
-          <aside id="sidebar">
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/阅读笔记/">阅读笔记</a><span class="category-list-count">1</span></li></ul>
-    </div>
-  </div>
+  <div class="clearfix"></div>
+</nav></div></div>
+    <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="搜尋">
+    <input type="hidden" name="q" value="site:yoursite.com">
+  </form>
+</div>
 
   
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/知识管理/">知识管理</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/阅读笔记/">阅读笔记</a><span class="tag-list-count">1</span></li></ul>
-    </div>
-  </div>
-
+<div class="widget tag">
+  <h3 class="title">分類</h3>
+  <ul class="entry">
   
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/知识管理/" style="font-size: 10px;">知识管理</a> <a href="/tags/阅读笔记/" style="font-size: 10px;">阅读笔记</a>
-    </div>
-  </div>
-
+    <li><a href="/categories/阅读笔记/">阅读笔记</a><small>1</small></li>
   
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a><span class="archive-list-count">2</span></li></ul>
-    </div>
-  </div>
+  </ul>
+</div>
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recents</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2015/08/10/hello-world/">Hello World</a>
-          </li>
-        
-          <li>
-            <a href="/2015/08/09/my-new-post/">阅读笔记，《你的知识需要管理》，田志刚</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
 
-  
+  <div class="widget tag">
+<h3 class="title">简介</h3>
+<ul class="entry">
+<li>作者：胡保珠</li>
+<li>简介：喜欢阅读和写作，知识管理和时间管理实践者，时间记录分析与规划实践者，长跑爱好者</li>
+<li>微博主页：<a href="http://weibo.com/2669611935/follow?rightmod=1&wvr=6">起今知行</a>
+<li>豆瓣主页：<a href="http://book.douban.com/mine?icn=index-nav">读书</a></li>
+</ul>
+</div>
+
+
+
+  <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=0&uid=1586279270&verifier=0c2cdcf8&dpc=1"></iframe>
 </aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2015 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
+    <div class="clearfix"></div>
   </div>
+  <footer id="footer" class="inner"><section>
+Theme of <a href="https://github.com/zippera/lightum">Lightum</a>, Improved from <a href="https://github.com/hexojs/hexo-theme-light">Light</a>, by <a href="/">zippera</a> 
+</section>
+<div class="clearfix"></div>
 </footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
 
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
-  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
 
 
-<script src="/js/script.js" type="text/javascript"></script>
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
 
-  </div>
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 </body>
 </html>
+
+
+<a href="https://github.com/zippera" target="_blank"></a>
