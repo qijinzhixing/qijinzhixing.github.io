@@ -231,7 +231,7 @@ var _hmt = _hmt || [];
     <header>
       
         <div class="icon"></div>
-        <time datetime="2015-05-09T12:58:33.000Z"><a href="/2015/05/09/e3-80-8a-e5-a6-82-e4-bd-95-e9-ab-98-e6-95-88-e6-92-b0-e5-86-99-e6-af-95-e4-b8-9a-e8-ae-ba-e6-96-87-e3-80-8b-e4-b9-8b-e4-b8-80-ef-bc-8cword-e6-8a-80-e5-b7-a7-e7-af-8701/">2015-05-09</a></time>
+        <time datetime="2015-05-09T12:58:33.000Z"><a href="/2015/05/09/《如何高效撰写毕业论文》之一，Word技巧篇01/">2015-05-09</a></time>
       
       
   
@@ -247,9 +247,9 @@ var _hmt = _hmt || [];
 <blockquote>
 <p>1.在Word里按下快捷键<code>Ctrl+D</code>打开字体对话框，进行相应的设置，设置好后点击<strong>确定</strong>。不要点“默认”，因为默认可能不符合我们的要求。</p>
 </blockquote>
-<p><img src="http://qjzhixing.tk/wp-content/uploads/2015/06/wpid-f2d48dc4526661147128b9fd609c7a61_aac3810e-163d-4ae3-92cf-bd62ba26872e1.png" alt=""></p>
+<p><img src="http://i3.tietuku.com/e4eb6d2ecdebfd39.png" alt=""></p>
 <h1 id="二、搜狗输入法如何高效输入常用专业术语和化学式？">二、搜狗输入法如何高效输入常用专业术语和化学式？</h1><p><em>题外话：其实这个和Word没有多大的关系，高效输入是在搜狗输入法里设置的，但是由于一直在Word里用它，所以就放在这里。</em></p>
-<p>撰写论文的过程中经常要重复输入常用的专业术语、化学式，使用的材料，这些常用的术语短的话还好说，直接输入就行了，但是如果较长的话还一个个敲入吗？No！太慢了，用<strong>搜狗的自定义短语</strong>啊！按几个字母就可以快捷输入，甚至是常用的一段话也可以。比如，在自己电脑上依次按下<code>i</code>和<code>c</code>两个字母，再敲一下空格，<strong>In-Situ Al-15%Mg<sub>2</sub>Si Composites</strong>就一下子输入了。是不是很效率呢？<br><img src="http://qjzhixing.tk/wp-content/uploads/2015/06/wpid-f2d48dc4526661147128b9fd609c7a61_078600a7-5782-4b93-9563-dce8d2b599831.png" alt=""><br>如何设置呢？具体操作如下：</p>
+<p>撰写论文的过程中经常要重复输入常用的专业术语、化学式，使用的材料，这些常用的术语短的话还好说，直接输入就行了，但是如果较长的话还一个个敲入吗？No！太慢了，用<strong>搜狗的自定义短语</strong>啊！按几个字母就可以快捷输入，甚至是常用的一段话也可以。比如，在自己电脑上依次按下<code>i</code>和<code>c</code>两个字母，再敲一下空格，<strong>In-Situ Al-15%Mg<sub>2</sub>Si Composites</strong>就一下子输入了。是不是很效率呢？<br><img src="http://i3.tietuku.com/e43b66a792cbd05c.png" alt=""><br>如何设置呢？具体操作如下：</p>
 <blockquote>
 <ol>
 <li>在搜狗拼音输入法的显示条上单击右键，选择<strong>“设置属性”</strong>（也可以按下快捷键<code>Ctrl+Shift+M</code>后再按下<code>p</code>）</li>
@@ -267,7 +267,7 @@ var _hmt = _hmt || [];
 <li>左键单击<strong>查找下一个</strong>，找到后，左键单击<strong>取消</strong>，在弹出的“文本与格式替换”对话框中，选择<strong>是</strong>，全部替换。</li>
 </ol>
 </blockquote>
-<p><img src="http://qjzhixing.tk/wp-content/uploads/2015/06/wpid-f2d48dc4526661147128b9fd609c7a61_280cd61d-0bd7-432c-b272-cfb5bbfc0ea01.png" alt=""></p>
+<p><img src="http://i3.tietuku.com/2be3c78a3ea614fb.png" alt=""></p>
 <p>宏命令代码如下：</p>
 <blockquote>
 <p>Sub fdpst()<br>‘<br>‘ fdpst Macro<br>‘ 宏创建于2015年5月9日14:13:04<br>msg1 = MsgBox(“你会用该宏命令吗? 如果不会，请按【否(N)】按钮，否则会损坏你的文件！若要使用该宏命令，请询问使用方法。继续执行该命令吗?”, 52, “谨慎！！！”)</p>
@@ -280,20 +280,20 @@ var _hmt = _hmt || [];
 <li>插入全部图片，全选，运行宏命令。</li>
 </ol>
 </blockquote>
-<p><img src="http://qjzhixing.tk/wp-content/uploads/2015/06/wpid-f2d48dc4526661147128b9fd609c7a61_4bb2d321-8740-40f6-b6bb-052d88ab97951.jpg" alt=""><br>宏命令代码如下：</p>
+<p><img src="http://i3.tietuku.com/bd8f39f30f085509.jpg" alt=""><br>宏命令代码如下：</p>
 <blockquote>
 <p>Sub setpicsize() ‘设置图片尺寸<br>Dim n ‘图片个数<br>On Error Resume Next ‘忽略错误<br>For n = 1 To ActiveDocument.InlineShapes.Count ‘InlineShapes 类型 图片<br>ActiveDocument.InlineShapes(n).Height = 7.39 <em> 28.35 ‘设置图片高度为 5cm （1cm等于28.35px）<br>ActiveDocument.InlineShapes(n).Width = 9.86 </em> 28.35  ‘设置图片宽度 6.3cm<br>Next n<br>End Sub</p>
 </blockquote>
 <p><strong>说明：</strong>这种方法只会改变图片的尺寸，不会更改图片所占用的空间大小。</p>
-<h1 id="五、如何给图片添加自动编号？">五、如何给图片添加自动编号？</h1><p>上面说到了批量更改图片尺寸的方法，对于一次性设置图片大小是非常的好用。而在写论文的时候，还有另外一个问题，就是在图片的下面需要加入<strong>图1-1</strong>、<strong>图1-2</strong>……等等的编号。如何加入这种编号呢？<strong>一个个敲入是一种方法，但这种方法首先是不够效率；其次，如果发现少了一张图的话或者之后再需要补充图片的话，后面的编号都要进行相应的更改，一旦图片较多，更改就变得十分的繁琐。</strong>比如我们希望在补充图片后，后面的编号可以自动的更新过来，而不用我们一个个去更改。那有没有好一点的办法解决呢？答案是肯定的！看看下面的图形，怎么让它自动生成呢？<br><img src="http://qjzhixing.tk/wp-content/uploads/2015/06/wpid-f2d48dc4526661147128b9fd609c7a61_6497ac0d-c1a1-44d2-be13-9e1d847fa8de1.jpg" alt=""><br>这个和后面插入文献的思路是一样的，不过这个用到的是<strong>题注</strong>，利用题注来进行自动编号，编号的好处是，如果中间有增减图片，后面的编号可以自动更新而不用一个个去调整。具体的操作如下：</p>
+<h1 id="五、如何给图片添加自动编号？">五、如何给图片添加自动编号？</h1><p>上面说到了批量更改图片尺寸的方法，对于一次性设置图片大小是非常的好用。而在写论文的时候，还有另外一个问题，就是在图片的下面需要加入<strong>图1-1</strong>、<strong>图1-2</strong>……等等的编号。如何加入这种编号呢？<strong>一个个敲入是一种方法，但这种方法首先是不够效率；其次，如果发现少了一张图的话或者之后再需要补充图片的话，后面的编号都要进行相应的更改，一旦图片较多，更改就变得十分的繁琐。</strong>比如我们希望在补充图片后，后面的编号可以自动的更新过来，而不用我们一个个去更改。那有没有好一点的办法解决呢？答案是肯定的！看看下面的图形，怎么让它自动生成呢？<br><img src="http://i3.tietuku.com/a2e555bfebf33a2c.jpg" alt=""><br>这个和后面插入文献的思路是一样的，不过这个用到的是<strong>题注</strong>，利用题注来进行自动编号，编号的好处是，如果中间有增减图片，后面的编号可以自动更新而不用一个个去调整。具体的操作如下：</p>
 <blockquote>
 <p>1.选中图片，选择<strong>引用</strong>，选择<strong>插入题注</strong>（或单击右键，选择<strong>插入题注</strong>），打开题注对话框；<br>2.选择<strong>新建标签</strong>，设定标签名称，比如，<code>图1-</code>；选择位置在<strong>所选项目下方</strong>，确定，就可以看到自动插入的题注编号了；如果想要显示章节的编号，可以打开<strong>编号</strong>，勾选<strong>包含章节号</strong>即可。</p>
 </blockquote>
-<p><img src="http://qjzhixing.tk/wp-content/uploads/2015/06/wpid-f2d48dc4526661147128b9fd609c7a61_65393612-c8ab-4662-812f-c1bc9e5b9ff11.png" alt="">      <img src="http://qjzhixing.tk/wp-content/uploads/2015/06/wpid-f2d48dc4526661147128b9fd609c7a61_27bb9a1e-7921-412c-b9a0-6d28a2cd92ad1.jpg" alt=""></p>
+<p><img src="http://i3.tietuku.com/0f6ee405f3c710e3.png" alt="">      <img src="http://i3.tietuku.com/e8e2c3506e0fda98.jpg" alt=""></p>
 <blockquote>
 <p>3.如果要增减图片，可以全选图片，然后按<code>**F9**</code>刷新。<br>4.需要引用的话，可以选中<strong>图1-1</strong>，把它做成一个<strong>书签</strong>，设定书签的名称，再在需要引用的地方依次选择<strong>引用</strong>—<strong>交叉引用</strong></p>
 </blockquote>
-<p><img src="http://qjzhixing.tk/wp-content/uploads/2015/06/wpid-f2d48dc4526661147128b9fd609c7a61_dbe88a2d-f8c3-46f5-8cb6-795f3c9ccd421.jpg" alt=""></p>
+<p><img src="http://i3.tietuku.com/ba547c0d63dbd584.jpg" alt=""></p>
 <p>这样插入题注是很方便的，如果需要批量处理，请移步<a href="http://blog.sina.com.cn/s/blog_9671d5180101r3br.html" target="_blank" rel="external">《Word系列之一：快速给批量图片插入编号》，迪斌仔</a>。此外，还有两点需要注意：</p>
 <ul>
 <li><p>默认的字体通常是<strong>黑体</strong>，不符合我们要求，所以要更改字体。方法是：选择<strong>样式</strong>，在<strong>题注</strong>处右键，选择<strong>修改</strong>，然后按照前面设置字体的方法进行设置即可。</p>
@@ -310,14 +310,14 @@ var _hmt = _hmt || [];
 <li>到Word里，把光标放到想要插入参考文献的位置，选择<strong>引用</strong>，单击<strong>插入尾注</strong>，选择性粘贴。<em>（<strong>选择性粘贴</strong>次数多的话可以考虑制定一个快捷键，方法：<strong>工具－自定义－命令－键盘，找到EditPasteSpecial</strong>，指定快捷键）</em></li>
 </ol>
 </blockquote>
-<p><img src="http://qjzhixing.tk/wp-content/uploads/2015/06/wpid-f2d48dc4526661147128b9fd609c7a61_5e5926d9-5a85-44a3-82f9-b8532112a8aa1.png" alt=""></p>
+<p><img src="http://i3.tietuku.com/0dac4baf26ae2c8c.png" alt=""></p>
 <h3 id="方法二：第三方文献管理软件，EndNote">方法二：第三方文献管理软件，EndNote</h3><p>如果安装第三方软件，插入文献就变得非常方便。这里推荐使用<strong>EndNote</strong>第三方文件管理软件。</p>
-<p>下载安装好后，在Word里面就有EndNote的加载项，如果没有显示的话，看看这里：<a href="http://blog.sciencenet.cn/blog-260374-513670.html" target="_blank" rel="external">《Word中没有出现EndNote工具条的一般解决方案》，于键</a>。然后在Word里面直接点击“Insert Citation”，找到想要插入的参考文献即可，效果如下：<br><img src="http://qjzhixing.tk/wp-content/uploads/2015/06/wpid-f2d48dc4526661147128b9fd609c7a61_4d2a04ee-30e5-46f6-b856-2784f8c7c97a1.png" alt=""></p>
+<p>下载安装好后，在Word里面就有EndNote的加载项，如果没有显示的话，看看这里：<a href="http://blog.sciencenet.cn/blog-260374-513670.html" target="_blank" rel="external">《Word中没有出现EndNote工具条的一般解决方案》，于键</a>。然后在Word里面直接点击“Insert Citation”，找到想要插入的参考文献即可，效果如下：<br><img src="http://i3.tietuku.com/af8589588adb2c46.png" alt=""></p>
 <h1 id="七、Word插入引用到底如何使用？">七、Word插入引用到底如何使用？</h1><p>前面说到了文献的插入方式，第一种是以尾注的方式插入，以尾注插入参考文献有几点需要注意：</p>
 <h3 id="1-尾注不是用数字标注的怎么更改？">1.尾注不是用数字标注的怎么更改？</h3><blockquote>
 <p>1.打开脚注和尾注对话框；把编号格式换成数字。</p>
 </blockquote>
-<p><img src="http://qjzhixing.tk/wp-content/uploads/2015/06/wpid-f2d48dc4526661147128b9fd609c7a61_552586f3-109d-4718-ba35-14e2a2d4a6a21.png" alt=""></p>
+<p><img src="http://i3.tietuku.com/407d2211a7e81970.png" alt=""></p>
 <h3 id="2-出现的分隔符如何删除？">2.出现的分隔符如何删除？</h3><p>以尾注的方式插入参考文献会多出一条分隔符，而分隔符不是我们想要的，那么就应该删除，而直接删除是删除不了的，那怎么删除呢？具体操作：</p>
 <blockquote>
 <ol>
@@ -325,14 +325,14 @@ var _hmt = _hmt || [];
 <li>单击<strong>引用</strong>，选择<strong>显示备注</strong>，在<strong>尾注</strong>里，删除所有分隔符。</li>
 </ol>
 </blockquote>
-<p><img src="http://qjzhixing.tk/wp-content/uploads/2015/06/wpid-f2d48dc4526661147128b9fd609c7a61_873257d0-1651-4a8e-9b75-29e6ae38c1371.png" alt=""></p>
+<p><img src="http://i3.tietuku.com/20b1599238e58c7d.png" alt=""></p>
 <h3 id="3-如何给尾注的数字编号一次性添加[_]">3.如何给尾注的数字编号一次性添加<code>[ ]</code></h3><p>尾注插入通常只有数字编号，但是，论文要求编号外面有<code>[ ]</code>，也就是不符合我们的要求，那该怎么办？如下图，如何把左边不带方框的变成右边的带有方框的格式？要不要一个个加呢？当然不要！<strong>我们所遇到的问题，别人都基本遇到过了，大多数的问题已经被解决了，去学习就好了。</strong>千万不要去做搬运工！一个个添加，累不坏才怪。具体的操作其实是非常的简单，就是一个查找和替换，瞬间解决。</p>
 <blockquote>
 <ol>
 <li>Ctrl+H，打开查找和替换，在查找里输入尾注标记<code>^e</code>，然后全部替换为<code>[^&amp;amp;]</code>。<br><strong>注意：</strong><code>^e</code>是尾注标记，如果全部使用的是脚注就换成<code>^f</code>。</li>
 </ol>
 </blockquote>
-<p><img src="http://qjzhixing.tk/wp-content/uploads/2015/06/wpid-f2d48dc4526661147128b9fd609c7a61_b600e299-c3f1-48c3-a6dd-38e0cdd0a5f71.jpg" alt=""></p>
+<p><img src="http://i3.tietuku.com/81dffb8b623c354e.jpg" alt=""></p>
 <h1 id="八、其他技巧及问题">八、其他技巧及问题</h1><h3 id="1-尝试使用宏命令">1.尝试使用宏命令</h3><p>宏命令的强大之处不必再次强调。但问题是，不懂代码怎么用呢？那就录制宏命令！比如自己就录入了一个宏命令，只要按下快捷键<code>Ctrl+Y</code>就直接在Word里面输入了Mg<sub>2</sub>Si。录制的宏命令代码如下：</p>
 <blockquote>
 <p>Sub Mg2Si()<br>‘<br>‘ Mg2Si 宏<br>‘ 快捷键Ctrl+Y<br>‘ 键盘  指定<br>    Selection.TypeText Text:=”Mg”<br>    Selection.Font.Subscript = wdToggle<br>    Selection.TypeText Text:=”2”<br>    Selection.Font.Subscript = wdToggle<br>    Selection.TypeText Text:=”Si”<br>End Sub</p>
@@ -343,7 +343,7 @@ var _hmt = _hmt || [];
 <li>插入－对象－对象，打开对象对话框，选择<strong>公式</strong>，输入相应的公式即可。</li>
 </ol>
 </blockquote>
-<p><img src="http://qjzhixing.tk/wp-content/uploads/2015/06/wpid-f2d48dc4526661147128b9fd609c7a61_91a179b1-cf85-402e-a9c8-a7c312e3ca7e1.png" alt=""></p>
+<p><img src="http://i3.tietuku.com/959c7645f0966241.png" alt=""></p>
 <h3 id="3-随时Ctrl+S，保持云同步">3.随时Ctrl+S，保持云同步</h3><p>撰写通常在Word里面进行，为了保险起见，需要注意这两点：<strong>随时保存和云同步</strong>。</p>
 <p><em>自己有一次在写作的时候没有及时保存，由于操作又比较快，所以写了半个多小时的东西全没了，心疼的很，最后又再补，幸亏内容不太多。所以你们要吸取个人的教训。</em></p>
 <p>另外，建议写作的时候，每一章建立一个文件夹，先单独写每一章，最后合并，调整格式。然后配合着云同步<em>（同步的工具选用百度云盘就可以，一是空间大，二是同步五个文件夹，足够用了）</em>，把重要的资料全部同步到云端，一来，保证文件不会丢失；二来特殊紧急情况没有电脑的时候，去网吧也可以下载修改。</p>
@@ -356,9 +356,10 @@ var _hmt = _hmt || [];
 <blockquote>
 <p>1.先把CAD图复制到Word里面，右键图片，选择<strong>设置对象格式</strong>，<strong>裁剪</strong>，设置数值，调整上下<em>（左右）</em>多余的空白。</p>
 </blockquote>
-<p><img src="http://qjzhixing.tk/wp-content/uploads/2015/06/wpid-f2d48dc4526661147128b9fd609c7a61_38c9a45d-5812-42da-aef0-409bfbea4513.png" alt=""></p>
+<p><img src="http://i3.tietuku.com/e987c1564a866a0a.png" alt=""></p>
 <h1 id="九、总结">九、总结</h1><p>大多数的工作都是在Word里面完成的，所以要用好Word。这些小的技巧几分钟就可以学会，可以节省大量的时间和精力，提高写作的效率。</p>
 <div><a href="http://www.wiz.cn/i/bf795f6e" title="来自为知笔记(Wiz)" target="_blank" rel="external">来自为知笔记(Wiz)</a></div>
+
       
     </div>
     <footer>
@@ -372,7 +373,7 @@ var _hmt = _hmt || [];
         
   
   <div class="tags">
-    <a href="/tags/AutoCAD/">AutoCAD</a>, <a href="/tags/word技巧/">word技巧</a>, <a href="/tags/宏命令/">宏命令</a>, <a href="/tags/排版/">排版</a>, <a href="/tags/撰写论文/">撰写论文</a>
+    <a href="/tags/word技巧/">word技巧</a>, <a href="/tags/撰写论文/">撰写论文</a>
   </div>
 
 <!-- Baidu Button BEGIN -->
@@ -473,7 +474,7 @@ var duoshuoQuery = {short_name:"qjzhixing"};
 <div class="widget tagcloud">
   <h3 class="title">标签云</h3>
   <div class="entry">
-    <a href="/tags/AutoCAD/" style="font-size: 10px;">AutoCAD</a> <a href="/tags/OCR/" style="font-size: 10px;">OCR</a> <a href="/tags/Origin绘图/" style="font-size: 10px;">Origin绘图</a> <a href="/tags/Vim/" style="font-size: 10px;">Vim</a> <a href="/tags/word技巧/" style="font-size: 12.5px;">word技巧</a> <a href="/tags/刻意练习/" style="font-size: 10px;">刻意练习</a> <a href="/tags/发现问题/" style="font-size: 10px;">发现问题</a> <a href="/tags/图片处理/" style="font-size: 10px;">图片处理</a> <a href="/tags/地图/" style="font-size: 10px;">地图</a> <a href="/tags/安全感/" style="font-size: 10px;">安全感</a> <a href="/tags/宏命令/" style="font-size: 10px;">宏命令</a> <a href="/tags/工具/" style="font-size: 10px;">工具</a> <a href="/tags/幸福/" style="font-size: 10px;">幸福</a> <a href="/tags/开题/" style="font-size: 10px;">开题</a> <a href="/tags/快速入门/" style="font-size: 10px;">快速入门</a> <a href="/tags/思维导图/" style="font-size: 12.5px;">思维导图</a> <a href="/tags/慢生活/" style="font-size: 12.5px;">慢生活</a> <a href="/tags/批量命名/" style="font-size: 10px;">批量命名</a> <a href="/tags/拖延/" style="font-size: 10px;">拖延</a> <a href="/tags/排版/" style="font-size: 12.5px;">排版</a> <a href="/tags/撰写论文/" style="font-size: 17.5px;">撰写论文</a> <a href="/tags/数据/" style="font-size: 10px;">数据</a> <a href="/tags/数据分析/" style="font-size: 10px;">数据分析</a> <a href="/tags/时间管理/" style="font-size: 10px;">时间管理</a> <a href="/tags/时间记录/" style="font-size: 10px;">时间记录</a> <a href="/tags/求职/" style="font-size: 15px;">求职</a> <a href="/tags/演讲/" style="font-size: 10px;">演讲</a> <a href="/tags/理清思路/" style="font-size: 10px;">理清思路</a> <a href="/tags/目录/" style="font-size: 10px;">目录</a> <a href="/tags/目标/" style="font-size: 10px;">目标</a> <a href="/tags/知识管理/" style="font-size: 20px;">知识管理</a> <a href="/tags/答辩/" style="font-size: 10px;">答辩</a> <a href="/tags/简历制作/" style="font-size: 10px;">简历制作</a> <a href="/tags/管理文献/" style="font-size: 10px;">管理文献</a> <a href="/tags/综述/" style="font-size: 10px;">综述</a> <a href="/tags/自我认知/" style="font-size: 12.5px;">自我认知</a> <a href="/tags/行动/" style="font-size: 10px;">行动</a> <a href="/tags/解决问题/" style="font-size: 10px;">解决问题</a> <a href="/tags/语音写作/" style="font-size: 17.5px;">语音写作</a> <a href="/tags/资源/" style="font-size: 10px;">资源</a> <a href="/tags/跑步/" style="font-size: 10px;">跑步</a> <a href="/tags/阅读文献/" style="font-size: 10px;">阅读文献</a> <a href="/tags/阅读笔记/" style="font-size: 17.5px;">阅读笔记</a> <a href="/tags/面试/" style="font-size: 10px;">面试</a> <a href="/tags/面试技巧/" style="font-size: 12.5px;">面试技巧</a> <a href="/tags/高效率/" style="font-size: 10px;">高效率</a>
+    <a href="/tags/OCR/" style="font-size: 10px;">OCR</a> <a href="/tags/Origin绘图/" style="font-size: 10px;">Origin绘图</a> <a href="/tags/Vim/" style="font-size: 10px;">Vim</a> <a href="/tags/word技巧/" style="font-size: 12.5px;">word技巧</a> <a href="/tags/刻意练习/" style="font-size: 10px;">刻意练习</a> <a href="/tags/发现问题/" style="font-size: 10px;">发现问题</a> <a href="/tags/图片处理/" style="font-size: 10px;">图片处理</a> <a href="/tags/地图/" style="font-size: 10px;">地图</a> <a href="/tags/安全感/" style="font-size: 10px;">安全感</a> <a href="/tags/工具/" style="font-size: 10px;">工具</a> <a href="/tags/幸福/" style="font-size: 10px;">幸福</a> <a href="/tags/开题/" style="font-size: 10px;">开题</a> <a href="/tags/快速入门/" style="font-size: 10px;">快速入门</a> <a href="/tags/思维导图/" style="font-size: 12.5px;">思维导图</a> <a href="/tags/慢生活/" style="font-size: 12.5px;">慢生活</a> <a href="/tags/批量命名/" style="font-size: 10px;">批量命名</a> <a href="/tags/拖延/" style="font-size: 10px;">拖延</a> <a href="/tags/排版/" style="font-size: 10px;">排版</a> <a href="/tags/撰写论文/" style="font-size: 17.5px;">撰写论文</a> <a href="/tags/数据/" style="font-size: 10px;">数据</a> <a href="/tags/数据分析/" style="font-size: 10px;">数据分析</a> <a href="/tags/时间管理/" style="font-size: 10px;">时间管理</a> <a href="/tags/时间记录/" style="font-size: 10px;">时间记录</a> <a href="/tags/求职/" style="font-size: 15px;">求职</a> <a href="/tags/演讲/" style="font-size: 10px;">演讲</a> <a href="/tags/理清思路/" style="font-size: 10px;">理清思路</a> <a href="/tags/目录/" style="font-size: 10px;">目录</a> <a href="/tags/目标/" style="font-size: 10px;">目标</a> <a href="/tags/知识管理/" style="font-size: 20px;">知识管理</a> <a href="/tags/答辩/" style="font-size: 10px;">答辩</a> <a href="/tags/简历制作/" style="font-size: 10px;">简历制作</a> <a href="/tags/管理文献/" style="font-size: 10px;">管理文献</a> <a href="/tags/综述/" style="font-size: 10px;">综述</a> <a href="/tags/自我认知/" style="font-size: 12.5px;">自我认知</a> <a href="/tags/行动/" style="font-size: 10px;">行动</a> <a href="/tags/解决问题/" style="font-size: 10px;">解决问题</a> <a href="/tags/语音写作/" style="font-size: 17.5px;">语音写作</a> <a href="/tags/资源/" style="font-size: 10px;">资源</a> <a href="/tags/跑步/" style="font-size: 10px;">跑步</a> <a href="/tags/阅读文献/" style="font-size: 10px;">阅读文献</a> <a href="/tags/阅读笔记/" style="font-size: 17.5px;">阅读笔记</a> <a href="/tags/面试/" style="font-size: 10px;">面试</a> <a href="/tags/面试技巧/" style="font-size: 12.5px;">面试技巧</a> <a href="/tags/高效率/" style="font-size: 10px;">高效率</a>
   </div>
 </div>
 
