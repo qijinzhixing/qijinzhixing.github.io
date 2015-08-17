@@ -319,7 +319,7 @@
     <link href="http://qijinzhixing.github.io/2015/06/26/e4-b8-8evim-e7-9a-84-e7-ac-ac-e4-b8-80-e6-ac-a1-e9-82-82-e9-80-85/"/>
     <id>http://qijinzhixing.github.io/2015/06/26/e4-b8-8evim-e7-9a-84-e7-ac-ac-e4-b8-80-e6-ac-a1-e9-82-82-e9-80-85/</id>
     <published>2015-06-26T12:46:34.000Z</published>
-    <updated>2015-08-14T14:34:24.555Z</updated>
+    <updated>2015-08-17T06:02:03.887Z</updated>
     <content type="html"><![CDATA[<div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div>
 
 <p>　　之前有在同学的推荐下使用了Notepad++这一款软件，那会对于文本编辑类的软件还没有任何的概念，用了一段时间，感觉对于效率的提升没有多大的作用，也只是用一下其中的替换、宏命令和消除格式作用。奇怪的是，在文本编辑器中，小众软件里它是排在前面的，但我没有发现它有太多特别之处。邂逅了Vim之后，Notepad++被直接弃之。原因很简单 ，对于高效编辑和排版有需求，但是Notepad++已经无法满足目前的需求。<br>　　对于刚接触Vim的人来说，上手确实需要耗费一定的时间和精力，尤其可能会被一些较长的命令串吓到，其实大可不必，长的命令串也只是一些简单的命令的组合而已，明白含义多用几次之后就习惯了。但不得不说，Vim的功能确实强大，花一点时间去学习和了解对于提高自己的效率十分有必要。<br><img src="http://qjzhixing.tk/wp-content/uploads/2015/07/wpid-d10b4bcd2af92f7c98b6b126fd8a27e2_eb93643a-22e9-4712-b1e1-e7aeb7a7cd001.jpg" alt=""></p>
@@ -341,14 +341,15 @@
 <h1 id="七、总结">七、总结</h1><p>　　知道Vim这一款软件也有一段时间了，但是长久以来对其不了解，迟迟没有投入自己的时间和精力去学习，一来是畏难心理的作用，二来是感觉没有需要，所以就误以为自己没有兴趣。现在看来，上手没有想象中的那么难，花一点时间学习使用一下就好了，不必追求技巧多么花哨，满足自己的需求就可以。即使不编程，单写作之后的编辑和排版就可以发挥其极高的效率。</p>
 <div style="position: absolute; width: 0px; height: 0px; overflow: hidden; padding: 0px; border: 0px; margin: 0px;"><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-family: MathJax_AMS, monospace;"></div></div>
 
-<div><a href="http://www.wiz.cn/i/bf795f6e" title="来自为知笔记(Wiz)" target="_blank" rel="external">来自为知笔记(Wiz)</a></div>]]></content>
+<div><a href="http://www.wiz.cn/i/bf795f6e" title="来自为知笔记(Wiz)" target="_blank" rel="external">来自为知笔记(Wiz)</a></div>
+]]></content>
     <summary type="html">
     <![CDATA[<div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin:]]>
     </summary>
     
       <category term="Vim" scheme="http://qijinzhixing.github.io/tags/Vim/"/>
     
-      <category term="效率工具" scheme="http://qijinzhixing.github.io/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+      <category term="效率软件" scheme="http://qijinzhixing.github.io/categories/%E6%95%88%E7%8E%87%E8%BD%AF%E4%BB%B6/"/>
     
   </entry>
   
