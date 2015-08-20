@@ -2,6 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
+    
+  <url>
+    <loc>http://qijinzhixing.github.io/2015/07/22/%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0/</loc>
+    <lastmod>2015-08-20T01:06:28.335Z</lastmod>
+    <data>
+        <display>
+        <title>刻意练习</title>
+        <pubTime>2015-07-22T08:49:31.000Z</pubTime>
+        
+        <tag>刻意练习 </tag>
+         
+        <tag>知识管理 </tag>
+         
+         
+           
+             
+              <breadCrumb title="阅读笔记" url="http://qijinzhixing.github.io/categories/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://qijinzhixing.github.io/2015/05/09/%E3%80%8A%E5%A6%82%E4%BD%95%E9%AB%98%E6%95%88%E6%92%B0%E5%86%99%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87%E3%80%8B%E4%B9%8B%E9%9B%B6%EF%BC%8C%E6%B2%BF%E6%B3%A2%E8%AE%A8%E6%BA%90%E7%AF%87/</loc>
     <lastmod>2015-08-18T14:15:25.910Z</lastmod>
@@ -364,28 +387,6 @@
            
              
               <breadCrumb title="默认" url="http://qijinzhixing.github.io/categories/%E9%BB%98%E8%AE%A4/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://qijinzhixing.github.io/2015/07/22/%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0/</loc>
-    <lastmod>2015-08-16T14:36:08.692Z</lastmod>
-    <data>
-        <display>
-        <title>刻意练习</title>
-        <pubTime>2015-07-22T08:49:31.000Z</pubTime>
-        
-        <tag>刻意练习 </tag>
-         
-        <tag>知识管理 </tag>
-         
-         
-           
-             
-              <breadCrumb title="阅读笔记" url="http://qijinzhixing.github.io/categories/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
           
         </display>
     </data>
