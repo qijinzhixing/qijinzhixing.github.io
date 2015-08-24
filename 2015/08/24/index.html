@@ -1,0 +1,540 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>使用Hexo搭建博客（一），一点想法 | 起今知行 | 思考者</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="QJzhixing">
+    
+
+    
+    <meta name="description" content="个人写博客的经历　　我写博客的时间不长，实际上是从去年底才萌生了写博客的想法。最开始的时候同学建议在网易平台上写作，然后自己尝试一段时间之后，觉得界面实在是不能忍受。尽管在为知笔记里面专心写作后一键分享非常的方便，但是后来还是放弃了。　　随后得知了简书  这一平台，界面非常的漂亮。在简书中坚持写了三个月后，发现简书也不能如自己的愿了。外在的理由有三个：其一是不支持标签云；其二是不能通过为知笔记一键">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用Hexo搭建博客（一），一点想法">
+<meta property="og:url" content="http://qijinzhixing.github.io/2015/08/24/index.html">
+<meta property="og:site_name" content="起今知行 | 思考者">
+<meta property="og:description" content="个人写博客的经历　　我写博客的时间不长，实际上是从去年底才萌生了写博客的想法。最开始的时候同学建议在网易平台上写作，然后自己尝试一段时间之后，觉得界面实在是不能忍受。尽管在为知笔记里面专心写作后一键分享非常的方便，但是后来还是放弃了。　　随后得知了简书  这一平台，界面非常的漂亮。在简书中坚持写了三个月后，发现简书也不能如自己的愿了。外在的理由有三个：其一是不支持标签云；其二是不能通过为知笔记一键">
+<meta property="og:updated_time" content="2015-08-24T08:53:53.193Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="使用Hexo搭建博客（一），一点想法">
+<meta name="twitter:description" content="个人写博客的经历　　我写博客的时间不长，实际上是从去年底才萌生了写博客的想法。最开始的时候同学建议在网易平台上写作，然后自己尝试一段时间之后，觉得界面实在是不能忍受。尽管在为知笔记里面专心写作后一键分享非常的方便，但是后来还是放弃了。　　随后得知了简书  这一平台，界面非常的漂亮。在简书中坚持写了三个月后，发现简书也不能如自己的愿了。外在的理由有三个：其一是不支持标签云；其二是不能通过为知笔记一键">
+<meta name="twitter:creator" content="@QJzhixing">
+
+    
+    <link rel="alternative" href="/atom.xml" title="起今知行 | 思考者" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/pacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/pacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+  <body>
+    <header>
+      
+<div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.svg" alt="起今知行 | 思考者" title="起今知行 | 思考者"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="起今知行 | 思考者">起今知行 | 思考者</a></h1>
+				<h2 class="blog-motto">自我管理，知识管理，时间管理，阅读，语音写作，思维导图，Wiz，TimeMeter</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">主页</a></li>
+					
+						<li><a href="/archives">归档</a></li>
+					
+						<li><a href="/tools">网络工具</a></li>
+					
+						<li><a href="/share">资源共享</a></li>
+					
+					<li>
+ 					
+						<form class="search">
+							<label>Search</label>
+						<input type="text" id="ts-search-input" name="q" size="30" placeholder="搜索"><br>
+						</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/08/24/" title="使用Hexo搭建博客（一），一点想法" itemprop="url">使用Hexo搭建博客（一），一点想法</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="QJzhixing" target="_blank" itemprop="author">QJzhixing</a>
+		
+  <p class="article-time">
+    <time datetime="2015-08-24T08:52:14.000Z" itemprop="datePublished"> 发表于 2015-08-24</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#个人写博客的经历"><span class="toc-number">1.</span> <span class="toc-text">个人写博客的经历</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#为什么要建立自己的博客？"><span class="toc-number">2.</span> <span class="toc-text">为什么要建立自己的博客？</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#第一、总结学习过的知识"><span class="toc-number">2.0.1.</span> <span class="toc-text">第一、总结学习过的知识</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#第二、提高自己的写作能力"><span class="toc-number">2.0.2.</span> <span class="toc-text">第二、提高自己的写作能力</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#第三、结识志同道合的朋友"><span class="toc-number">2.0.3.</span> <span class="toc-text">第三、结识志同道合的朋友</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#选择Hexo的理由是什么？"><span class="toc-number">3.</span> <span class="toc-text">选择Hexo的理由是什么？</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#第一，使用Hexo搭建静态博客本身所具有的优势"><span class="toc-number">3.0.1.</span> <span class="toc-text">第一，使用Hexo搭建静态博客本身所具有的优势</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#第二，体验新事物"><span class="toc-number">3.0.2.</span> <span class="toc-text">第二，体验新事物</span></a></li></ol></li></ol></li></ol>
+		
+		</div>
+		
+		<h1 id="个人写博客的经历">个人写博客的经历</h1><p>　　我写博客的时间不长，实际上是从去年底才萌生了写博客的想法。最开始的时候同学建议在网易平台上写作，然后自己尝试一段时间之后，觉得界面实在是不能忍受。尽管在为知笔记里面专心写作后一键分享非常的方便，但是后来还是放弃了。<br>　　随后得知了<a href="http://www.jianshu.com/users/dbef5f7e1bc6/timeline" target="_blank" rel="external">简书</a>  这一平台，界面非常的漂亮。在简书中坚持写了三个月后，发现简书也不能如自己的愿了。外在的理由有三个：其一是不支持标签云；其二是不能通过为知笔记一键分享（神奇的为知笔记也支持Markdown语法）；其三个人想要一个独立域名的博客。所以坚持最长时间的简书也慢慢疏远了。<br>　　在准备疏远简书之前，自己就想先搭建一个免费的博客试运行一下。然而那时对于搭建博客一概不知，只听说过Wordpress，但是不知道搭建博客需要哪些条件，甚至都不知道域名和空间是怎么回事，完全是小白一名。但我天生喜欢折腾，学习能力也还算可以，所以就决定从零开始学习。了解了各种网络教程之后，最后决定使用<a href="http://www.000webhost.com" target="_blank" rel="external">000webhost空间</a>和<a href="http://www.freenom.com/" target="_blank" rel="external">TK域名</a>在Wordpress上搭建一个独立域名的博客，反复折腾之后也竟然成功了。我的第一个独立博客：<a href="http://qjzhixing.tk/" target="_blank" rel="external">起今知行|思考者</a> 然而，<strong>免费的东西有时候会以一种你可能意识不到的方法让你付出代价</strong>。三蛋空间移动端的广告算是让我见识到了这一点。所以第一个博客的寿命也只有一两个月左右的时间。<br>　　在剑飞的推荐下，尝试使用Github搭建博客，因此也就有了这一个网站。但是用Github搭建过程也尽是曲折。首先，因为自己不懂编程更不懂代码，所以有些对于计算机专业的人来说非常简单的配置，自己都可能需要折腾几次；其次，用Github搭建博客和在Wordpress上搭建博客的思路完全不同，Wordpress是动态网页，是以数据库技术为基础的，维护的工作量很小；而Github是静态网页，内容相对稳定，也更容易被搜索引擎检索起来，但是维护的成本大了很多，各种代码，各种手动配置，如果不喜欢折腾，真的会让你心力交瘁，最后直接就想放弃了。<br>　　好在，自己的热情抵消了好多的困难，所以这个博客也还是呈现在了这里。对于不懂代码和变成的我来说，也算是一点点小成就。等我搭建好这个博客的时候，发现用Hexo搭建博客的人多是计算机专业的同学，而少有其他专业的人愿意花时间来倒腾这件事情。所以我想，体验一下不同的事情，走进代码的世界里，看一看在这里能带给自己怎样有趣的经历。有意思的是，通过搭建博客，自己也认识了像<a href="http://zipperary.com/" target="_blank" rel="external">赵兄</a>这样热心且实力强劲的同学，这本身也是一件很有幸的事情。</p>
+<h1 id="为什么要建立自己的博客？">为什么要建立自己的博客？</h1><p>　　花费了那么多的时间和精力在博客上面，问题是，为什么我一定要建立自己的博客呢？想要回答这个问题，这就要说到写博客对于我个人的意义。</p>
+<h3 id="第一、总结学习过的知识">第一、总结学习过的知识</h3><p>　　这两年持续不断的学习，总想着把时间好好的利用起来，的确还是有一定的进步，但事实上，我的进步一开始是非常慢的，直到后来，我发现一个事实就是，自己一直只是在“学”，没有去好好的总结，更少去“习”。首先，我忽视了<strong>总结是简单且重要的检验学习的方法</strong>；其次，<strong>好多知识是需要去实践的，再好的理论都不能解决你的任何问题，除非你去实践</strong>。所以我建立博客的<strong>第一个意义在于利用这一平台总结自己学习的知识，以此来检验自己是否真正的掌握了。</strong></p>
+<h3 id="第二、提高自己的写作能力">第二、提高自己的写作能力</h3><p>　　向来自己的写作能力非常一般，而我又欣赏那些文本流畅的人写出一手好的文章。我会自己写一些东西，但是多数的时候自己并不能满意，但是我始终相信一点就是：<strong>写作能力和其他的技能一样，是可以通过不断的练习提高的。</strong>坚信这一点，我也就更愿意去写一些东西，帮助自己养成写作的习惯。这里还需要指出的一点就是：<strong>我们的一生会经历好多的事情，有很多美好的事情是可以记录下来的，如果再配合上一些流畅的文笔记录下来，那么日后自己回忆的时候，这些东西也是人生的一笔财富。</strong></p>
+<h3 id="第三、结识志同道合的朋友">第三、结识志同道合的朋友</h3><p>　　至于第三个意义，写过博客的人都会清楚，那就是<strong>利用博客这个平台结识一些不同的朋友。</strong>没有写博客的人可能不会体验到，交友还可以这样进行。是的，不光是可以，而且我熟知的坚持写博客的人都是一些非常认真且优秀的人。在这个平台上，不仅可以交到朋友，更可以交到非常优秀的朋友。如果我没有开始写博客，可能我也不会认识像剑飞这样的牛人。所以，写作与我来说，那就是和高手切磋的一个平台。</p>
+<h1 id="选择Hexo的理由是什么？">选择Hexo的理由是什么？</h1><p>　　综合考虑之后，我选择了<a href="https://github.com/hexojs/hexo" target="_blank" rel="external">Hexo</a>+<a href="https://github.com/" target="_blank" rel="external">Github</a>来搭建自己的博客。那么问题来了，为什么要选择Hexo呢？WordPress也挺好的，非常大众，维护的成本（时间和精力）还那么低，哪像Hexo那么费劲，一堆不认识的代码。理由是什么呢？<br>　　我的考虑有二：第一，使用Hexo搭建静态博客本身所具有的优势；第二，体验新事物。</p>
+<h3 id="第一，使用Hexo搭建静态博客本身所具有的优势">第一，使用Hexo搭建静态博客本身所具有的优势</h3><p>　　Hexo是一款基于Node.js的静态博客框架。我们可以在<a href="https://github.com/hexojs/hexo" target="_blank" rel="external">Hexo</a>上搭建自己的独立博客，然后托管到<a href="https://github.com/" target="_blank" rel="external">Github</a>或其他类似平台上，建立自己的独立域名博客非常简单，如果对于Github给定的二级域名不满意的话，可以自己买一个域名绑定上，单独购买域名也非常的便宜。Hexo其本身操作也非常的简单，基本常用的操作命令也不过三四个，不懂代码不懂计算机也很容易上手；可以自由定制，任意换成自己喜欢的样式，只要你有想法，基本都可以实现，不懂就搜索，基本的问题程序员都已经帮助我们解决了；支持Markdown语法<em>（个人非常喜欢的一种标记语言，10min左右就可以上手）</em>。另外，使用Hexo建立的博客是静态的，比起动态网页更方便被搜索引擎检索出来，这也比WordPress更具有优势。</p>
+<h3 id="第二，体验新事物">第二，体验新事物</h3><p>　　我一直推崇做一个有趣的。所谓有趣的人，就是对于陌生的事情抱有一定的好奇心，都想去尝试和体验。而事实上，多数人觉得生活非常平淡枯燥，对什么事情提不起兴趣，其实有一点就是，不愿意走出自己安全区去体验不同的事情。要知道，<strong>如果我们的每一天都在重复着昨天，那么显然，生活自然平淡无味。</strong>想要生活过的有趣，那就最好尝试做一些不同的事情，在体验不同的事情中收获小小的成就感，慢慢的积累，自然而然就变成有趣的人。<br>　　对于我个人而言，不懂编程不懂代码，这件事情于我就是一件全然陌生的新事情，如果不去尝试，这个可能一直是自己的障碍。即使别人不给自己贴标签，那么自己在潜意识里也会给自己贴上一个“不懂代码、不懂编程”之类的标签。<strong>事实是，一旦给自己贴上一个否定的标签，那么可能真的就把自己给否定了</strong>。<em>举例来说，好多人觉得自己的英语不好，于是给自己贴上了“学不好英语”的标签，也就把自己能够学好英语这个能力给全盘否定了，最后的结果就只剩下“放弃”二字。</em>然而，我学习英语的经历告诉我一个事实：那就是，如果两年前我没有给自己撕掉那个“英语只考20几分”标签，那么CET-4对于我来说就是一个梦，CET-6更是遥不可及。值得高兴的是，我不仅甩掉了那个否定的标签，更是很骄傲的甩掉了。而这也是属于我的一种全新的体验。<br>　　我们的一生就那么长，而外面的世界又那么的精彩。这里的精彩，不局限于风景有多么漂亮，人有多美，食物有多美味，还有一种就是体验新鲜事物后感受的精彩，获得成就的精彩，思维提升的精彩，更是丰富生命意义的精彩。不趁着年轻多多的体验，等到耄耋之年，一回首，人生几乎是空白，唯有老泪纵横。坦白说，我真心不希望未来是这么一幅画面！何况是你，相信更不希望吧！</p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/效率软件/">效率软件</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/Hexo/">Hexo</a>
+  </div>
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://qijinzhixing.github.io/2015/08/24/" data-title="使用Hexo搭建博客（一），一点想法 | 起今知行 | 思考者" data-tsina="2669611935" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+
+<div class="next">
+<a href="/2015/08/11/"  title="阅读笔记，《学习之道》，乔希·维茨金">
+ <strong>下一篇：</strong><br/> 
+ <span>阅读笔记，《学习之道》，乔希·维茨金
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+<section id="comments" class="comment">
+	<div class="ds-thread" data-thread-key="2015/08/24/" data-title="使用Hexo搭建博客（一），一点想法" data-url="http://qijinzhixing.github.io/2015/08/24/"></div>
+</section>
+
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#个人写博客的经历"><span class="toc-number">1.</span> <span class="toc-text">个人写博客的经历</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#为什么要建立自己的博客？"><span class="toc-number">2.</span> <span class="toc-text">为什么要建立自己的博客？</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#第一、总结学习过的知识"><span class="toc-number">2.0.1.</span> <span class="toc-text">第一、总结学习过的知识</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#第二、提高自己的写作能力"><span class="toc-number">2.0.2.</span> <span class="toc-text">第二、提高自己的写作能力</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#第三、结识志同道合的朋友"><span class="toc-number">2.0.3.</span> <span class="toc-text">第三、结识志同道合的朋友</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#选择Hexo的理由是什么？"><span class="toc-number">3.</span> <span class="toc-text">选择Hexo的理由是什么？</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#第一，使用Hexo搭建静态博客本身所具有的优势"><span class="toc-number">3.0.1.</span> <span class="toc-text">第一，使用Hexo搭建静态博客本身所具有的优势</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#第二，体验新事物"><span class="toc-number">3.0.2.</span> <span class="toc-text">第二，体验新事物</span></a></li></ol></li></ol></li></ol>
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+		  
+			<li><a href="/categories/情绪管理/" title="情绪管理">情绪管理<sup>2</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/效率软件/" title="效率软件">效率软件<sup>3</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/时间管理/" title="时间管理">时间管理<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/研究生涯/" title="研究生涯">研究生涯<sup>10</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/语音写作/" title="语音写作">语音写作<sup>6</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/运动健身/" title="运动健身">运动健身<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/阅读笔记/" title="阅读笔记">阅读笔记<sup>5</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/默认/" title="默认">默认<sup>1</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
+
+  
+  <div class="tagcloudlist">
+    <p class="asidetitle">标签云</p>
+    <div class="tagcloudlist clearfix">
+       <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/Vim/" style="font-size: 10px;">Vim</a> <a href="/tags/word技巧/" style="font-size: 12px;">word技巧</a> <a href="/tags/刻意练习/" style="font-size: 10px;">刻意练习</a> <a href="/tags/图片处理/" style="font-size: 10px;">图片处理</a> <a href="/tags/安全感/" style="font-size: 10px;">安全感</a> <a href="/tags/幸福/" style="font-size: 10px;">幸福</a> <a href="/tags/思维导图/" style="font-size: 12px;">思维导图</a> <a href="/tags/慢生活/" style="font-size: 10px;">慢生活</a> <a href="/tags/拖延/" style="font-size: 10px;">拖延</a> <a href="/tags/撰写论文/" style="font-size: 18px;">撰写论文</a> <a href="/tags/数据分析/" style="font-size: 10px;">数据分析</a> <a href="/tags/时间管理/" style="font-size: 10px;">时间管理</a> <a href="/tags/时间记录/" style="font-size: 10px;">时间记录</a> <a href="/tags/求职/" style="font-size: 12px;">求职</a> <a href="/tags/演讲/" style="font-size: 10px;">演讲</a> <a href="/tags/目标/" style="font-size: 10px;">目标</a> <a href="/tags/知识管理/" style="font-size: 20px;">知识管理</a> <a href="/tags/答辩/" style="font-size: 10px;">答辩</a> <a href="/tags/管理文献/" style="font-size: 10px;">管理文献</a> <a href="/tags/语音写作/" style="font-size: 16px;">语音写作</a> <a href="/tags/跑步/" style="font-size: 10px;">跑步</a> <a href="/tags/阅读笔记/" style="font-size: 14px;">阅读笔记</a> <a href="/tags/面试技巧/" style="font-size: 10px;">面试技巧</a> <a href="/tags/高效工具/" style="font-size: 10px;">高效工具</a> <a href="/tags/高效率，慢生活/" style="font-size: 10px;">高效率，慢生活</a>
+    </div>
+  </div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+      <li><a href="http://sikaoa.com/" title="思考啊|剑飞在思考">剑飞在思考</a></li>
+	  <li><a href="http://mindhacks.cn" target="_blank" title="刘未鹏">刘未鹏</a></li>
+	  <li><a href="http://xbeta.info" target="_blank" title="善用佳软">善用佳软</a></li>
+	  <li><a href="http://www.appinn.com" target="_blank" title="小众软件">小众软件</a></li>
+	  <li><a href="http://www.hiddenwangcc.com" target="_blank" title="易仁永澄">易仁永澄</a></li>
+	  <li><a href="http://www.read.org.cn" target="_blank" title="战隼的学习探索">战隼的学习探索</a></li>
+	  <li><a href="http://www.gudaovision.com" target="_blank" title="古道视野">古道视野</a></li>
+	  <li><a href="http://blog.emagic.org.cn" target="_blank" title="舍得—学习能力">舍得—学习能力</a></li>
+	  <li><a href="http://www.mifengtd.cn" target="_blank" title="褪墨">褪墨</a></li>
+	  <li><a href="http://www.gtdlife.com" target="_blank" title="小强的时间管理博客">小强的时间管理博客</a></li>
+	  <li><a href="http://http://www.zreading.cn" target="_blank" title="左岸读书">左岸读书</a></li>
+	  <li><a href="http://www.xiaolai.net" target="_blank" title="李笑来的博客">李笑来的博客</a></li>
+	  <li><a href="http://yangjian.me" target="_blank" title="YangJian">Alimon's Blog</a></li>
+	  <li><a href="http://zipperary.com/" title="Zippera's Blog">Zippera</a></li>
+</ul>
+    </ul>
+</div>
+
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+  <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=2&isTitle=1&noborder=1&isWeibo=1&isFans=0&uid=2669611935&verifier=f079b235&dpc=1"></iframe>
+
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> 我是起今知行，自我管理实践者！时间记录分析与规划实践者！ <br/>
+			喜欢阅读和写作，高效软件，知识管理、GTD和长跑爱好者！欢迎交流！</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		<a href="http://weibo.com/2669611935" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		<a href="https://github.com/qijinzhixing" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		
+		<a href="https://twitter.com/QJzhixing" target="_blank" class="icon-twitter" title="twitter"></a>
+		
+		
+		
+		
+		<a href="https://www.douban.com/people/97112731" target="_blank" class="icon-douban" title="豆瓣"></a>
+		
+		
+		<a href="http://www.zhihu.com/people/QJzhixing" target="_blank" class="icon-zhihu" title="知乎"></a>
+		
+		
+		
+		<a href="mailto:QJzhixing@qq.com" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2015 
+		
+		<a href="/about" target="_blank" title="QJzhixing">QJzhixing</a>
+		
+	
+<span id="busuanzi_container_site_pv">
+    Total visit <span id="busuanzi_value_site_pv"></span> Times.
+</span>
+<span id="busuanzi_container_page_pv">
+  Total <span id="busuanzi_value_page_pv"></span> Views.
+</span>
+
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/jquery.qrcode-0.12.0.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});   
+</script>
+
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"qjzhixing"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F6dd992918548991d48e4f10df4796102' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<script>
+var option = {
+  engineKey: 'eb4726b2a0ea6b569b79'
+};
+(function(w,d,t,u,n,s,e){
+  s = d.createElement(t);
+  s.src = u;
+  s.async = 1;
+  w[n] = function(r){
+    w[n].opts = r;
+  };
+  e = d.getElementsByTagName(t)[0];
+  e.parentNode.insertBefore(s, e);
+})(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
+_ts(option);
+</script>
+
+
+<!-- Tiny_search End -->
+
+  </body>
+</html>
