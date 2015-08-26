@@ -5,7 +5,7 @@
   <subtitle><![CDATA[自我管理，知识管理，时间管理，阅读，语音写作，思维导图，Wiz，TimeMeter]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://qjzhixing.com//"/>
-  <updated>2015-08-24T08:53:53.193Z</updated>
+  <updated>2015-08-26T14:44:31.060Z</updated>
   <id>http://qjzhixing.com//</id>
   
   <author>
@@ -14,6 +14,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[使用Hexo搭建博客（二），搭建博客的过程]]></title>
+    <link href="http://qjzhixing.com/2015/08/26/"/>
+    <id>http://qjzhixing.com/2015/08/26/</id>
+    <published>2015-08-26T14:43:22.000Z</published>
+    <updated>2015-08-26T14:44:31.060Z</updated>
+    <content type="html"><![CDATA[<h1 id="一、使用Hexo搭建博客的构架">一、使用Hexo搭建博客的构架</h1><p>　　看了第一篇<a href="http://qjzhixing.com/2015/08/24/">一点想法</a>后，如果你有兴趣利用Hexo搭建自己的博客，那么这一篇可能对你有一些实际的帮助。我将会重点说明搭建博客的整个过程，即使你不懂代码，不懂编程，都没有关系，如果愿意尝试，你一定也可以。重点是，<strong>你要想清楚你是不是真心想要搭建一个自己的博客</strong>。因为后面一系列的工作比较多，需要用热情抵消困难。想清楚了，请接着往下看。<br>　　在开始之前，我先简单说明一下整个博客的一个搭建过程：<br>　　<strong>第一步，搭建本地博客</strong>；在电脑上安装<a href="http://git-scm.com/" target="_blank" rel="external">Git</a>和<a href="https://nodejs.org/" target="_blank" rel="external">Node.js</a>两个程序，利用简单的命令安装好Hexo；<br>　　<strong>第二步，部署远程博客</strong>；注册一个<a href="https://github.com/" target="_blank" rel="external">Github</a>账号，然后在上面创建一个Repository，简单配置一下，博客的基本框架就建立好了。</p>
+<p>　　至于搭建好了怎么写博客，是这样的，如果你懂一点Markdown语法就更好了，可以让你专心写作而不必在意格式，显示出来的效果非常漂亮。不懂的也不要紧，花个十来分钟就可以上手。<br>说完了在Hexo上搭建博客的一个思路，现在开始进入实际的操作。</p>
+<h1 id="二、搭建本地博客">二、搭建本地博客</h1><h2 id="1-安装Git">1.安装<a href="http://git-scm.com/" target="_blank" rel="external">Git</a></h2><p>　　安装过程一路默认即可，安装好后，单击右键就会多出三个Git的按钮，先不管它。</p>
+<h2 id="2-安装Node-js">2.安装<a href="https://nodejs.org/" target="_blank" rel="external">Node.js</a></h2><p>　　可以一路默认，需要的话也可以更改一下安装的路径。</p>
+<h2 id="3-安装Hexo">3.安装Hexo</h2><p>　　Hexo的安装需要借助Node.js的<code>npm</code>命令，可以理解为Hexo是Node.js的模块。操作的方式是在任意的位置单击鼠标右键，选择<code>Git bash</code>命令，在里面输入：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="operator"><span class="keyword">install</span> -<span class="keyword">g</span> hexo</span></span><br></pre></td></tr></table></figure></p>
+<p>　　卸载的话，自然是把上面命令中的<code>install</code>替换成<code>uninstall</code>即可执行卸载。</p>
+<h2 id="4-创建Hexo文件夹">4.创建Hexo文件夹</h2><p>　　Hexo文件夹就是你后面博客的文件夹。第一步先在某个盘符下新建一个文件夹，重命名<em>（英文字母）</em>，假设你是在D盘下建立了一个名叫<code>Hexo</code>的文件夹，那么路径就是<code>D:\hexo</code> <em>（后续的操作大多在这个文件夹里进行）</em>；第二步进入<code>Hexo</code>文件夹单击右键，依旧选择<code>Git bash</code>这一命令，输入以下命令，博客所需要的文件都已经自动建立好了，这比<code>jekyll</code>操作简单多了。<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> init</span><br></pre></td></tr></table></figure></p>
+<h2 id="5-安装依赖包">5.安装依赖包</h2><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span></span><br></pre></td></tr></table></figure>
+<h2 id="6-预览本地博客">6.预览本地博客</h2><p>　　一系列的安装命令之后，本地博客就算搭建好了，输入如下的命令<em>（也可以利用组合命令，我的做法是在搜狗输入法中自定义一个短语，快速输入<code>hexo s -g</code>，效果一样）</em>。这个命令是用于调试。然后在浏览器地址栏中输入<code>localhost:4000</code>或者<code>127.0.0.1:4000</code>就可以查看本地的博客了。<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">g</span></span><br><span class="line">hexo <span class="literal">s</span></span><br></pre></td></tr></table></figure></p>
+<p>　　不出意外的话，它应该是像下图这个样子的<em>（图片来源于网络）</em>。注意这里仅仅是本地博客，其他地方看不到。第一步操作到这里就结束了。<br><img src="http://i3.tietuku.com/34571f44cce4abb4.png" alt=""></p>
+<h1 id="三、部署远程博客">三、部署远程博客</h1><h2 id="1-注册Github账号">1.注册<a href="https://github.com/" target="_blank" rel="external">Github</a>账号</h2><p>　　因为是托管到Github上，所以第一步需要注册一个账号。已有账号的自行忽略。注册的过程比较简单，这里不做赘述。</p>
+<h2 id="2-建立和用户名对应的仓库">2.建立和用户名对应的仓库</h2><p>　　第二步是建立和用户名相对应的仓库，这是什么意思呢？以我的例子来说，我的用户名是<code>qijinzhixing</code>,那么我的仓库就必须是<code>qijinzhixing.github.io</code>，否则可能就不成功。<br><img src="http://i1.tietuku.com/d8416d666cd78213.png" alt=""></p>
+<h2 id="3-配置SSH公钥">3.配置SSH公钥</h2><p>　　远程代码是基于SSH的，所以需要SSH的相关配置。方法是现在本地生成SSH公钥，然后添加到Github上面。具体的操作如下：<br>（1）设置你的邮箱和用户名：<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user<span class="class">.email</span> <span class="string">"qjzhixing@qq.com"</span></span><br><span class="line">git config --global user<span class="class">.name</span> <span class="string">"qijinzhixing"</span></span><br></pre></td></tr></table></figure></p>
+<p>（2）生成密钥，设置密码，输入的密码不显示<em>（也可以不设置，按三次回车，密码为空）</em><br><figure class="highlight mathematica"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -<span class="keyword">C</span> <span class="string">"qjzhixing@qq.com"</span></span><br></pre></td></tr></table></figure></p>
+<p>　　上述的命令成功后，会得到<code>id_rsa</code>和<code>id_rsa.pub</code>两个文件，可能在<code>C:\Users\Administrator\.ssh</code>文件夹里，没有的话，就用Everything搜一下。<br>（3）把SSH密钥添加到Github上<br>　　登陆Github后，点击<code>settings</code>，然后进入<code>SSH keys</code>，把<code>id_rsa.pub</code>文件里内容添加进去就好了。</p>
+<h2 id="4-部署远程博客">4.部署远程博客</h2><p>（1）编辑<code>D:\hexo</code>目录下的配置文件<code>_config.yml</code>,在最下面输入以下内容，注意把里面的<code>qijinzhixing</code>替换成你的用户名<br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">deploy</span>:</span><br><span class="line">  <span class="attribute">type</span>: git</span><br><span class="line">  <span class="attribute">repository</span>: <span class="attribute">https</span>:<span class="comment">//github.com/qijinzhixing/qijinzhixing.github.io.git</span></span><br><span class="line">  <span class="attribute">branch</span>: master</span><br></pre></td></tr></table></figure></p>
+<p>（2）部署远程博客，输入以下命令<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">g</span></span><br><span class="line">hexo <span class="literal">d</span></span><br></pre></td></tr></table></figure></p>
+<p>　　出现下面的提示表示部署成功<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INFO Deploy <span class="keyword">done</span>: git</span><br></pre></td></tr></table></figure></p>
+<p>　　部署好了后，在浏览器地址栏中输入你的仓库名来访问，我的是<code>qijinzhixing.github.io</code>。注意一点，第一次部署的话，可能需要等待一会（一般不到10分钟就好了）才能生效，以后每次部署就可以直接访问。到这里基本的博客就搭建好了。</p>
+<h1 id="四、Hexo的基本命令">四、Hexo的基本命令</h1><p>　　Hexo基本常用的命令就四个，而且还可以使用组合命令。基本命令如下：<br><figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo g = hexo generate  <span class="preprocessor">#生成</span></span><br><span class="line">hexo s = hexo <span class="keyword">server</span>  <span class="preprocessor">#启动本地预览</span></span><br><span class="line">hexo d = hexo deploy  <span class="preprocessor">#远程部署</span></span><br><span class="line">hexo n <span class="string">"文章标题"</span> = hexo <span class="keyword">new</span> <span class="string">"文章标题"</span>  <span class="preprocessor">#新建一篇博文</span></span><br></pre></td></tr></table></figure></p>
+<p>　　我通常是选用组合命令，操作更为效率。如果你使用搜狗输入法的话，可以自定义一个短语，比如我输入<code>hs</code>则出现<code>hexo s -g</code>命令。<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo s -<span class="keyword">g</span>  #等同先输入hexo <span class="keyword">g</span>，再输入hexo <span class="literal">s</span></span><br><span class="line">hexo <span class="keyword">d</span> -<span class="keyword">g</span>  #等同先输入hexo <span class="keyword">g</span>，再输入hexo <span class="literal">d</span></span><br></pre></td></tr></table></figure></p>
+<h1 id="五、Tips">五、Tips</h1><ol>
+<li>注意一定要验证Github的验证邮件。</li>
+<li>出现其他任何的问题，先删除博客目录下的<code>db.json</code>文件，然后清理再部署远程博客，操作时输入以下的命令<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo <span class="keyword">d</span> -<span class="keyword">g</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>　　走到了这一步，你应该知道了你的博客仅仅相当于一个毛坯房而已，意味着后面需要你自己一点点去装修，换成你喜欢的风格样式。至于具体如何装修你的博客，我们下一篇再说。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="一、使用Hexo搭建博客的构架">一、使用Hexo搭建博客的构架</h1><p>　　看了第一篇<a href="http://qjzhixing.com/2015/08/24/">一点想法</a>后，如果你有兴趣利用Hexo搭建自己的博客，那么这一篇可能对你有一些]]>
+    </summary>
+    
+      <category term="Hexo" scheme="http://qjzhixing.com/tags/Hexo/"/>
+    
+      <category term="效率软件" scheme="http://qjzhixing.com/categories/%E6%95%88%E7%8E%87%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[使用Hexo搭建博客（一），一点想法]]></title>
@@ -911,87 +955,6 @@
       <category term="时间管理" scheme="http://qjzhixing.com/tags/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/"/>
     
       <category term="管理文献" scheme="http://qjzhixing.com/tags/%E7%AE%A1%E7%90%86%E6%96%87%E7%8C%AE/"/>
-    
-      <category term="研究生涯" scheme="http://qjzhixing.com/categories/%E7%A0%94%E7%A9%B6%E7%94%9F%E6%B6%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[《如何高效撰写毕业论文》之四，思维导图篇]]></title>
-    <link href="http://qjzhixing.com/2015/05/14/"/>
-    <id>http://qjzhixing.com/2015/05/14/</id>
-    <published>2015-05-14T13:01:02.000Z</published>
-    <updated>2015-08-23T02:09:51.479Z</updated>
-    <content type="html"><![CDATA[<h1 id="一、思维导图是什么？">一、思维导图是什么？</h1><p>在前面的几篇文章里面，已经反复提到了<strong>思维导图</strong>或者<strong>MindManager</strong>软件，那么究竟思维导图是什么？又该如何认识它？首先，想要认识一个事物，就应该从它的定义出发。百度百科上对<a href="http://baike.baidu.com/link?url=mCRJi57yu3LcoMY8j75xuJ4RgBCisjSaWX_6Wu08VK5jssBgbxNkkeLWFL7Oxw50-UJmpmJHWqPUJZs5Y_Cqda" target="_blank" rel="external">思维导图</a>给出了这样的解释：</p>
-<blockquote>
-<p>思维导图（Mind Map）又叫<a href="http://zh.wikipedia.org/wiki/%E5%BF%83%E6%99%BA%E5%9B%BE" target="_blank" rel="external">心智图</a>，是表达发射性思维的有效的图形思维工具，它简单却又极其有效，是一种革命性的<strong>思维工具</strong>。思维导图运用图文并重的技巧，把各级主题的关系用相互隶属与相关的层级图表现出来，把主题关键词与图像、颜色等建立记忆链接。<br>百科上的解释是发射性思维，这个显然是不正确的。根据思维导图的创始人<a href="http://baike.baidu.com/link?url=fyPsIRImZhEfU4jEWk4Vwmy9HEPJjeDqwUQtuLJlGcRSzi-WD1lNmRjotL2_n_8XEsrSnzvJoVZbP0dCEkv_an79QU1mXFYCUFMIsKX9Y03L8qm2XYad89OmIx-kYFn0HHCf5S2rGCUlbDa1aJUB5HgetkAvAXYzayE4GSYuDWXv_US4wdDFCuMag94XOnbj" target="_blank" rel="external">托尼·巴赞</a>在<a href="http://book.douban.com/subject/1047749/" target="_blank" rel="external">《思维导图：放射性思维》</a><em>（自己很偶然在图书馆发现了这一本书，也因此和它结缘）</em>中一书的观点，应该是<strong>放射性思维</strong>！</p>
-</blockquote>
-<p>但是不要紧，不妨碍我们认识它！从定义上看，思维导图是<strong>一个有效的思维工具</strong>！它是用一个中心关键词以辐射线的方式向四周展开的图像，由<strong>颜色</strong>、<strong>文字</strong>、<strong>图形</strong>和<strong>线条</strong>等通过一定的层级关系连接起来。解释起来真的比较费力。一图胜千言，那就先放一张图上看看它长什么样子。</p>
-<p><img src="http://i3.tietuku.com/50d4e6e0391e25f3.jpg" alt=""></p>
-<p>这是一张思维导图，图片来源于管理者家园的Eyong大哥<a href="http://book.douban.com/subject/6960890/" target="_blank" rel="external">《思维导图的三招十八式》</a>一书的作品。</p>
-<p>上面的图例都是思维导图的应用实例，大多都是手绘的作品。自己其实也是非常佩服那些手绘的高手，因为手绘更能体现思维导图的精髓，但是自己天分有限，再者从效率的角度出发，所以选择了计算机绘制的方法。有了这一张图，就能更好的理解思维导图了。</p>
-<h1 id="二、思维导图有什么用途？">二、思维导图有什么用途？</h1><p>想到一个东西就应该考虑它有什么作用。思维导图也不例外，没有应用就没有价值。思维导图究竟有什么应用呢？</p>
-<p>在<a href="http://book.douban.com/subject/1047749/" target="_blank" rel="external">《思维导图：放射性思维》</a>里面分别从<strong>个人、家庭、教育、商业和职业用途</strong>、甚至<strong>未来</strong>等五大方面列举了思维导图的应用，但个人不太喜欢那样的应用介绍。为什么呢？<em>举个例子，看这篇文章的你，角色可能是学生，你还没有自己的家庭，还没有工作，那家庭、商业和职业方面的应用对你有什么作用吗？当然没有多大的应用。</em>因此，我们可能更多的关注个人方面的应用，而忽略了一点，那就是其他方面的应用可能也有很高的参考价值，因为思维导图的精髓是发散性思维，所以它的应用也必须是用发散性的思维去应用。</p>
-<p><img src="http://i3.tietuku.com/43afc78274723f32.jpg" alt=""></p>
-<p><em>这张图被引用的地方很多，已经找不到原作者是谁了，所以若有侵权的行为，请您联系我！邮箱：QJzhixing@qq.com</em></p>
-<p>提起思维导图的应用，不得不再次提及管理者家园的Eyong大哥。出于爱好，把思维导图应用到了生活和工作的方方面面，最后才有了<a href="http://book.douban.com/subject/6960890/" target="_blank" rel="external">《思维导图的三招十八式》</a>这一本书。出版书籍其实还是次要的，令自己佩服的是，能把一件工具运用到这种地步，确实令人叹为观止！从简单操作技巧，到一些项目资料的管理；从与Word、Excel、PPT等的结合到整理演讲的思路；从死磕图片到提升运用的理念，一步一个台阶。这已经不是学习思维导图也不是运用思维导图，而是他在玩思维导图，玩到了一个很多人都无法比拟的高度。</p>
-<p>玩也好，运用也好，思维导图的核心用途到底是什么？在我看来还是：<strong>发散性思维</strong>。其他的几乎都是发散性思维的延伸，比如结合着头脑风暴，再比如理清自己的思路，整理自己的知识结构等等，都是从一个主题出发，然后向四周毫无限的蔓延。用一张图就可以说明：<br><img src="http://i3.tietuku.com/15ccfac058ed4fe3.png" alt=""><br><strong>发散性思维意味着，思维不受任何的限制，自由联想，天马行空。</strong>这也是个人认为思维导图的精髓用途所在。</p>
-<h1 id="三、思维导图如何运用在科研当中？">三、思维导图如何运用在科研当中？</h1><p>思维导图如何用在科研当中？这是个好问题！</p>
-<p>要回答这个问题，先想想做研究、撰写毕业论文都有哪些工作要做？不动脑子地列举：开题、做实验、整理数据、撰写毕业论文，准备答辩。归并一下，从两个应用侧重说明：开题与答辩演讲思路和构建毕业论文框架。</p>
-<h3 id="用途一：理清开题与答辩演讲思路">用途一：理清开题与答辩演讲思路</h3><p>开题和答辩放置在一起是因为这两者有一定的共性，首先两者重要不言而喻；其次这两者都需要做PPT给大牌们演讲。</p>
-<p>不少同学惧怕这两个环节，因为稍有问题就会被那么多的眼睛钉在上面下不来，无地自容。不信的话，去看看你们的师兄师姐的开题与答辩就会明白。不是危言耸听，真的遇到了确实比较尴尬。问题要么是基础知识不扎实，要么是没有底气，要么就是思路不清，讲着讲着就卡壳了，甚至紧张，害怕忘记的紧张，结果往往真的就会忘记的。这些都会影响自己的信心和底气。而有没有底气，在下面的人会看的很明白。</p>
-<p>演讲需要用到PPT，PPT的质量很大程度决定了演讲效果。</p>
-<p>制作PPT是一门技术，除了排版、配色这些辅助的技巧外，<strong>真正保证PPT质量是里面的内容和逻辑结构。</strong>逻辑结构清晰，内容完整，基本就可以做一次很好的演讲，至少不会出太大的差错。以自己的选题报告为例说明，整个过程分为六步：</p>
-<h4 id="第一步，用思维导图整理出自己的框架结构，保证逻辑清晰">第一步，用思维导图整理出自己的框架结构，保证逻辑清晰</h4><p>通常，如果是一件陌生的事情，我们很难对其有一个清晰的认识。开题报告就是一个好的例子，如果不用思维导图去整理清楚自己的思路，那么脑海里必然是浆糊， 演讲的结果也是混乱的。</p>
-<p><strong>演讲的核心是清晰的逻辑，这里就是开题的主线。</strong>没有主线，很难说的上是好的演讲。就如人一样，有自己的骨架。没有骨架直立都不可能实现的吧。所以，<strong>一定要理清自己的思路，理清演讲的主线。</strong>下面是自己的一个范例，展开了选题依据的子内容。<br><img src="http://i3.tietuku.com/aa9e1b733c905697.jpg" alt=""></p>
-<h4 id="第二步，依据自己的框架结构制作PPT，增加减少内容">第二步，依据自己的框架结构制作PPT，增加减少内容</h4><p>理清了自己的思路，就有了演讲的框架，制作PPT就可以依据这样的框架去补充完善，PPT的章节和框架保持一致。这样做的好处有二：<strong>一是不至于太过凌乱；二是便于记忆。</strong>对应的PPT的主题就和思维导图的保持一致。接下来讲什么，怎么讲，一级一级深入下去，逻辑就清晰了。<br><img src="http://i3.tietuku.com/46dadab4e99165ff.jpg" alt=""><br>另外在做PPT的时候，有几个地方需要注意：</p>
-<p><strong>（1）重点一定要突出</strong></p>
-<p>泛泛的讲演对于听者来说是一件痛苦的事情。人的记忆力和注意力都十分有限，如果PPT没有重点，很难给听者留下好的印象。</p>
-<p><strong>（2）文字要少，精炼；字体要大，醒目</strong></p>
-<p>有的同学会在PPT里面添加好多的文字，结果字数太多放不下，怎么办呢？就选择把字体调小，然后照着上面的逐字逐句的念。试问，假如你是听者，你会是怎样的感受呢？还有，下面坐的都是年长的人啊，视力没有那么好，把字体调小，他们能看清吗？引用一下一位老师当场说的话，“我不需要你来给我做科普！”你能听出话里的不耐烦和不满吗？所以一定要考虑听者的感受。少用点文字，尽可能精炼，还有，把字体调大一点，让他们能够看得清。</p>
-<p><strong>（3）不要做的太花哨，三种色彩最适宜</strong></p>
-<p>提及这一点有没有必要呢？当然有啊！开题和最后的答辩都是严肃的场合啊，把PPT做的那么花哨真的就好看吗？就能给自己加分吗？懂一点配色还好，如果不懂配色，会弄巧成拙的！再换一个角度，<strong>时间有限，在制作样式上花费较多的时间，那么在整体内容上花费的时间就少了。</strong>能不能给出不错的内容就无法得到保障。逻辑结构是核心，内容是灵魂啊！一般而言，三种颜色足以，简洁大方，最多不要超过五种颜色！</p>
-<h4 id="第三步，反复检查，不犯常识性错误">第三步，反复检查，不犯常识性错误</h4><p>这一点重要性也不必说的吧。任何的小错误出现在演讲的PPT里面都可能让听者反感的。比如，千万不要出现错别字、语句不通、标点符号运用明显错误的情况。<strong>任何一个小的错误都会直接导致听者对你的印象大打折扣！</strong></p>
-<h4 id="第四步，思考“他们可能会提哪些问题？”以及“自己该如何回答？”">第四步，思考“他们可能会提哪些问题？”以及“自己该如何回答？”</h4><p>在演讲后会有几分钟的提问环节，导师们会针对你的演讲提出一些可能存在的问题。诸如，<em>“你为什么选择这种材料？XX不是更合适吗？”“你说到这两者有较大的相似性，是你自己想的还是有其他参考依据呢？都有哪些相似性？”……</em></p>
-<p>想一想，他们可能会提出什么问题，列举出来，然后针对这样的问题做出相应的解答。要知道，<strong>只有准备充分了，才不会显得没有底气和信心。</strong></p>
-<h4 id="第五步，预演，把控时间和节奏">第五步，预演，把控时间和节奏</h4><p>选题也好，答辩也好，都是有时间限制的。不可能任由某一个人在摆龙门阵，漫无边际的大侃特吹，说太多是体现不出重点的；也不可能允许某一个人说个一两分钟就结束，时间太少是说不明白的。之前一位同学在参加创新项目申请的时候，没有把握好自己的时间，时间还没有到，自己已经把内容讲完了，结果与项目无缘，甚是可惜。所以需要根据自己的演讲内容把控好自己的时间和节奏。在独处的时候，定一个闹钟，多预演几次。</p>
-<h4 id="第六步，演讲，声音洪亮，自信">第六步，演讲，声音洪亮，自信</h4><p>这一步注意一点：演讲的时候提高自己的声音。原因是，提高自己的声音可以<strong>克服紧张情绪</strong>，给自己<strong>增加演讲的底气</strong>。<em>这一点是自己导师教会自己的，很受用。</em></p>
-<p><strong>毫无疑问，所有的准备都是为了最后时刻的精彩发挥！</strong>没有前面那么多的精心准备，想要获得较好的演讲效果，恐怕说出去自己都是无法相信的。如同任何一个考试一样，没有充足的准备，即使过了十有八九也是运气使然，不见得以后的路都会如此的顺利，总会有跌到的时候。</p>
-<h3 id="用途二：搭建论文的框架与任务安排">用途二：搭建论文的框架与任务安排</h3><p>思维导图强大之处在于，<strong>理清思路与逻辑，按照一定的层级关系呈现出来，便于站在更高的层面去看清一些事物。</strong>都说站的更高，看的更远。这话确实不假。因为俯视，真的可以看清很多的东西。</p>
-<p>既然思维导图可以运用到开题或答辩的演讲当中，那么，对于同样需要清晰结构的毕业论文，应该可以发挥更大的优势吧。看多了学位论文的同学会发现，大多数的学位论文的逻辑是比较清晰的，这一点看目录就可以清楚。但，在非正式的场合，比起目录，思维导图应该更能让人记住自己的思路和逻辑。这和人的大脑有关，发散性思考是人脑的自然思考的方式，以此方式来感觉、认知和记忆我们见识到的事物。以图文并茂、层级结构呈现，可以充分利用左右脑的机能来进行认知。以自己的论文框架为例，下来说说，怎么运用思维导图。</p>
-<p>先给出自己的图例。有人会说，看不清什么啊！是的，真实的东西不能让你们看清的。不过不要紧，你们知道它长什么样子就好了。</p>
-<p><img src="http://i3.tietuku.com/1112949e28dce253.jpg" alt=""></p>
-<p>结构清晰吗？一篇论文都有哪些内容，哪一部分写些什么，怎么写，都呈现在自己的眼前。这是自己的，所以自己就能够统揽论文的大局。<strong>所谓运筹帷幄决胜千里，自己看来，就是站在更高的战略的层面去看待整个局势。</strong></p>
-<p>问题来了：<strong>怎么做呢？又有什么用呢？</strong>下面依次说明这些问题。</p>
-<h4 id="1-怎么构建论文框架呢？">1.怎么构建论文框架呢？</h4><p><strong>（1）构建大致框架</strong></p>
-<p>构建框架的办法前面已经说到了，参考啊！参考其他学位论文的结构，参考师兄师姐的结构！看清一点，是<strong>大致框架</strong>！千万不要指望一次构建一个完美的框架。要知道，罗马不是一天建成的。</p>
-<p><strong>（2）修改完善内容</strong></p>
-<p>有了大致的框架就可以进行适当的调整，<strong>增减必要的内容，不断完善这个整体。</strong></p>
-<p>这么做有什么好处呢？<em>举个自己的例子，在整理的过程中，有一块模棱两可的内容，自己不确定放在哪里合适，其他人和自己的研究方向又不同，怎么办呢？所以，就拿这个问题请教了自己的导师，最终他给出了答案。</em>拿自己的例子想要说明的是，如果没有站在更高的层面去看待自己的论文结构，这个问题就可能变得棘手。棘手在于，可能自己随便放在某一分支下，时间一长，自己忘记了，到最后别人帮你发现有问题，你再去被动的调整的话，如果时间紧就会给自己徒增焦虑。而实际这个问题是可以自己发现然后提前预防的。</p>
-<h4 id="2-构建框架有什么用？">2.构建框架有什么用？</h4><p>不知道有多少的同学有时间管理的概念，就是<strong>项目一定要分解成任务，任务要再分解成下一步行动。</strong>而撰写毕业论文就可以看成是一个大项目。问题是，写完毕业论文这么大的项目你准备怎么完成它？</p>
-<p><strong>作用一、分解撰写论文到具体的行动</strong></p>
-<p>比如，你看到<strong>“第2章 实验方法”</strong>，你知道干嘛吗？有同学说，写第2章 实验方法啊。问题是，第2章 实验方法你怎么写？写什么东西？花多长时间写呢？你会语塞的。撰写第2章是大项目下的一个大项目啊。直接写是写不出来的，写出来的话，逻辑结构也是很难保证的啊。所以构建框架的作用之一就是<strong>便于分解项目到任务，分解任务到下一步行动。</strong></p>
-<p>没有接触过时间管理的同学可能稍微有点费解，不要紧，先放一张图，接着细说。</p>
-<p><img src="http://i3.tietuku.com/94ebaad118678c4c.jpg" alt=""></p>
-<p>这张图好像和上面的不一致啊，的确不一致。上面的是总体框架，不涉及任务分解，分解是分解各章节的任务和行动，每一章节都分解下去。这个是临时随意制作的，不是真实的，为的就是说明方法是怎样的。构建框架的第二个作用是什么呢？</p>
-<p><strong>作用二、跟踪撰写论文的过程，保证写作顺利进展</strong></p>
-<p>拿实验设备为例，比如自己想要写实验设备这部分内容，那怎么写呢？光看着“实验设备”这几个字你很难知道怎么做，所以分解啊。比如自己分解的两个行动：记录，实验设备的名称、型号等相关信息；制作表格，实验设备列表。以动词开头，这两个行动就具有可执行性，看到这两项行动，就知道，哦，要做什么什么 。同样的，想写拉伸实验部分，再做分解，<strong>分解成具体可以执行的行动，该查找资料的就查找资料，该写作的写作，该绘制CAD图的就去绘图，一项一项去执行。</strong>前面的小圈圈就代表了完成的情况，哪些已经完成了，哪些还没有，一目了然。如此一来，就可以站在更高的层面清晰地跟踪论文写作的整个过程。</p>
-<h1 id="四、思维导图和你有什么关系？">四、思维导图和你有什么关系？</h1><p>不止向身边的一两个人推荐过思维导图工具。但慢慢地发现：原来大家都不需要。通常给大家推荐这一工具，如石牛沉入大海，换回“哦”的一声，或者“好的，有空看一下”，然后就再闻不见其他的声响，也再也没有空看了，然后什么也没有发生。</p>
-<p>如同这个系列的文章，不学习，不交流，不使用，它对你就没有多大的用处。也就是和你们没有关系。</p>
-<p>渐渐地，自己不再主动向其他人推荐什么。因为慢慢意识到，他们暂时不需要这些东西，如果需要的话，他们会自己去了解，而用不着自己指点。所以遇到愿意交流的人就交流，不愿意交流的人自己也不会勉强，继续做好自己的事情。这些东西，即使不学不用，也不会损失什么的。因为在一定的范围内，一些东西是可以被替代的。<em>比如批量处理的，一个个处理也可以啊；比如理清思路的，不用思维导图，写下来整理也可以的；再比如不用搜狗的自定义输入，一个个敲入也可以完成的对不？</em>所以有需求才有价值。<strong>如果没有需求，东西再好，工具再高效，也和自己没有关系，对吗？</strong></p>
-<div><a href="http://www.wiz.cn/i/bf795f6e" title="来自为知笔记(Wiz)" target="_blank" rel="external">来自为知笔记(Wiz)</a></div>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="一、思维导图是什么？">一、思维导图是什么？</h1><p>在前面的几篇文章里面，已经反复提到了<strong>思维导图</strong>或者<strong>MindManager</strong>软件，那么究竟思维导图是什么？又该如何认识它？首先，想要认识一个事]]>
-    </summary>
-    
-      <category term="思维导图" scheme="http://qjzhixing.com/tags/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/"/>
-    
-      <category term="撰写论文" scheme="http://qjzhixing.com/tags/%E6%92%B0%E5%86%99%E8%AE%BA%E6%96%87/"/>
-    
-      <category term="演讲" scheme="http://qjzhixing.com/tags/%E6%BC%94%E8%AE%B2/"/>
-    
-      <category term="答辩" scheme="http://qjzhixing.com/tags/%E7%AD%94%E8%BE%A9/"/>
     
       <category term="研究生涯" scheme="http://qjzhixing.com/categories/%E7%A0%94%E7%A9%B6%E7%94%9F%E6%B6%AF/"/>
     
