@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
+  <url>
+    <loc>http://qjzhixing.com/2015/08/27/</loc>
+    <lastmod>2015-08-27T09:53:00.520Z</lastmod>
+    <data>
+        <display>
+        <title>使用Hexo搭建博客（三），博客配置、主题和写作</title>
+        <pubTime>2015-08-27T09:51:51.000Z</pubTime>
+        
+        <tag>Hexo </tag>
+         
+         
+           
+             
+              <breadCrumb title="效率软件" url="http://qjzhixing.com/categories/%E6%95%88%E7%8E%87%E8%BD%AF%E4%BB%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://qjzhixing.com/2015/08/26/</loc>
