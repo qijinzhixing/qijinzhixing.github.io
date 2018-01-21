@@ -5,7 +5,7 @@
   <subtitle><![CDATA[自我管理，知识管理，时间管理，阅读，语音写作，思维导图，Wiz，TimeMeter]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://qjzhixing.com//"/>
-  <updated>2017-09-14T23:04:56.336Z</updated>
+  <updated>2018-01-21T01:55:20.435Z</updated>
   <id>http://qjzhixing.com//</id>
   
   <author>
@@ -14,6 +14,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[寒门博士事件究竟谁之过？]]></title>
+    <link href="http://qjzhixing.com/2018/01/21/"/>
+    <id>http://qjzhixing.com/2018/01/21/</id>
+    <published>2018-01-21T01:54:37.000Z</published>
+    <updated>2018-01-21T01:55:20.435Z</updated>
+    <content type="html"><![CDATA[<pre><code><span class="number">90</span>年，湖北黄冈，西安交大，硕博连读，这里的哪一个字眼没有深深戳中我？然而，在杨XX事件之初，我并没有太多的予以重视。理由竟是这样的简单：都博士了，还无法处理好校内师生之间的问题，出了校园如何面对社会的惊涛骇浪？
+但是，随着事件的慢慢发酵，我意识到，事情并没有原本想象的那样由某一单一因素造成。杨XX女友所说的“出国无望，学术无果”，这也许是很大的一部分因素。但是细想，杨XX事件并非个案，在硕士和博士群体中，大概率的都面临过这样的问题，那是不是所有感受到这种压力的人都应该走上这条不归路呢？选择离开很容易，但生者呢？我们一生中，会面临很多次这样的矛盾：碰到一个你不赞成的人，而他偏偏掌权，譬如说他决定着你的学业成绩，又或者是职位、薪水，甚至是其他更重要的。面对这种矛盾，是反抗还是接受？为何反抗又为何接受？如何反抗又如何接受？这是一系列复杂的问题，但并非无解。譬如说，是否认真考虑过他是什么样的“对手”？能够做些什么既能达到自己的目的又能承受随之带来的后果或灾难？这些问题都是个人成长道路上极佳的训练机会，没抓住并处理好可惜了。
+作为掌握学生生杀大权的导师，谁来监管他们？学生选择导师时，如果在彼此了解和熟悉的情况下做出的决定是理性的。然而，不少情况下，我们只能根据导师的学术成果和一些外在的信息去做出决定。在信息掌握不全时所作出的决定往往只能依靠所谓的运气，运气好碰到好导师，顺顺利利按期拿到毕业证和学位证，运气不好也许就是下一个杨XX。职称评定的方式是存在巨大问题的。譬如说，我们的评价体系中往往侧重于评价这个人在学术上所取得成果，却忽视了为人师德的评价；再譬如说，有完善升职称通道却缺乏降职称的通道，除非是犯了严重错误遭到媒体的曝光。有鉴于此，无怪于学术界造假、抄袭、剽窃的案件屡屡发生。
+对于杨XX，我感到非常的惋惜。这种惋惜不仅仅是同龄人、同籍贯、身处同一座异乡城市的共鸣，更因为，在面临人生难题时，未能以恰当的方式处理获得成长，而选择一种最简单最容易的方式去结束。
+</code></pre>]]></content>
+    <summary type="html">
+    <![CDATA[<pre><code><span class="number">90</span>年，湖北黄冈，西安交大，硕博连读，这里的哪一个字眼没有深深戳中我？然而，在杨XX事件之初，我并没有太多的予以重视。理由竟是这样的简单：都博士了，还无法处理好校内师生之间的问题，出了校园如何面对社会的]]>
+    </summary>
+    
+      <category term="成长" scheme="http://qjzhixing.com/tags/%E6%88%90%E9%95%BF/"/>
+    
+      <category term="研究生涯" scheme="http://qjzhixing.com/categories/%E7%A0%94%E7%A9%B6%E7%94%9F%E6%B6%AF/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[职场不易，且努力且体味]]></title>
@@ -891,76 +912,6 @@
       <category term="阅读笔记" scheme="http://qjzhixing.com/tags/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
     
       <category term="阅读笔记" scheme="http://qjzhixing.com/categories/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[使用Hexo搭建博客（四），博客的部件和插件]]></title>
-    <link href="http://qjzhixing.com/2015/08/28/"/>
-    <id>http://qjzhixing.com/2015/08/28/</id>
-    <published>2015-08-28T09:04:27.000Z</published>
-    <updated>2015-08-29T04:59:58.735Z</updated>
-    <content type="html"><![CDATA[<p>　　<a href="http://qjzhixing.com/2015/08/27/">上一篇</a>是博客配置相关的说明。这一篇也算是收尾了，基本是一些博客的小部件，和一些可以自己添加的插件，这些都是自己尝试成功了的，所以这里也算是总结一下。文章写到这里，可能就是一些比较细枝末节的东西了。但也许以后有人用的上，也可能自己需要回顾一下，总结一下以便于后续有据可查，不必要再在需要的时候再去检索。</p>
-<h1 id="一、博客的零部件">一、博客的零部件</h1><h2 id="1-添加『微搜索』">1.添加<a href="http://tinysou.com/" target="_blank" rel="external">『微搜索』</a></h2><p>　　现在的文章还不多，使用目录和标签就可以快速找到文章，这是一种方式。对于习惯用搜索的用户来说，特别是后续文章积累到一定的程度之后，想要快速找到自己想看到的文章就比较困难，我自己就希望实现站内搜索的功能。而静态网页和动态的诸如Wordpress不同，内置的谷歌搜索，但是显然在国内直接不能实现站内搜索的，你需要采取其他的措施。查询了一下，使用<a href="http://gengbiao.me/2014/10/22/hexo%E6%B7%BB%E5%8A%A0%E7%99%BE%E5%BA%A6%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2/#" target="_blank" rel="external">百度</a>和<a href="http://www.jerryfu.net/post/search-engine-for-hexo-with-swiftype.html" target="_blank" rel="external">swiftype</a>都可以为Hexo实现站内搜索，我自己也实践了一下，但是不明原因的不现实结果。好在Jacman主题内置了<a href="http://tinysou.com/" target="_blank" rel="external">微搜索</a>的功能，注册一下，添加代码就可以了。比较方便，也能够满足使用。<br>1.注册之后得到key，然后把key填到到<code>D:\Hexo\themes\jacman\layout\_partial\tinysou_search.ejs</code>文件；<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">engineKey: <span class="string">''</span>  <span class="id">#e</span><span class="class">.g</span>.  <span class="string">'eb4726b2a0ea6b569b79'</span></span><br></pre></td></tr></table></figure></p>
-<p>2.把主题配置文件<code>_config.yml</code>修改启用，填上你的id就可以。<br><figure class="highlight http"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">tinysou_search</span>: <span class="string">    ## http://tinysou.com/</span></span><br><span class="line">  <span class="attribute">enable</span>: <span class="string">true</span></span><br><span class="line">  <span class="attribute">id</span>: <span class="string"> ## e.g. eb4726b2a0ea6b569b79  for your tiny search id</span></span><br></pre></td></tr></table></figure></p>
-<h2 id="2-添加『多说评论』">2.添加<a href="http://duoshuo.com/" target="_blank" rel="external">『多说评论』</a></h2><p>　　评论系统国内使用比较多的是<a href="http://duoshuo.com/" target="_blank" rel="external">多说</a>，先注册一下，然后在主题配置文件中填上你的用户名；</p>
-<ol>
-<li>在多说进行注册，获得通用代码，将通用代码粘贴到<code>D:\Hexo\themes\jacman\layout\_partial\post\comment.ejs</code>文件里面；</li>
-</ol>
-<figure class="highlight erb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span>&lt;%<span class="ruby"> <span class="keyword">if</span> (theme.duoshuo.enable &amp;&amp; page.comments)&#123; </span>%&gt;<span class="xml"></span><br><span class="line"><span class="tag">&lt;<span class="title">section</span> <span class="attribute">class</span>=<span class="value">"comment"</span>&gt;</span></span><br><span class="line">	#此处粘贴你的通用代码</span><br><span class="line"><span class="tag">&lt;/<span class="title">section</span>&gt;</span></span><br><span class="line"></span>&lt;%<span class="ruby"> &#125; </span>%&gt;<span class="xml"></span></span><br></pre></td></tr></table></figure>
-<ol>
-<li>在主题配置文件中，填上你多说的用户名</li>
-</ol>
-<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="label">duoshuo_shortname:</span>    <span class="preprocessor">## e.g. qjzhixing  your duoshuo short name.</span></span><br></pre></td></tr></table></figure>
-<h2 id="3-添加『JiaThis分享』">3.添加<a href="http://www.jiathis.com/" target="_blank" rel="external">『JiaThis分享』</a></h2><p>　　博客在前期需要大量推广，即使你写的文章再好，别人也不一定能看到，或者别人看到了也不会认真阅读，这是正常的。不妨主动自己主动一点，把自己的文章推广一下，也能帮助自己博客提高访问量。微博、微信和QQ空间都是很好的传播平台，需要利用好。我以前看不上QQ空间，但是后面我发现，多数人还是习惯了用QQ空间。所以就需要一键分享的功能。不少人用的百度的，但个人对JiaThis更感兴趣一点。样式多，支持平台多，重要的是方便。</p>
-<ol>
-<li>注册之后得到了id，把id添加到<code>jiathis.ejs</code>文件中；没改动的话是在第22行的<code>uid</code>那里。</li>
-<li>再在主题配置文件中<code>jiathis</code>的<code>enable</code>改为<code>true</code>启用，也同样填上id。</li>
-</ol>
-<figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">jiathis:</span><br><span class="line">  enable: <span class="keyword">true</span> ## <span class="keyword">if</span> you <span class="keyword">use</span> jiathis <span class="keyword">as</span> your share tool,the built-<span class="keyword">in</span> share tool won<span class="string">'t</span> <span class="keyword">be</span> display.</span><br><span class="line">  id:    ## e.g. <span class="number">1889330</span> your jiathis ID.</span><br></pre></td></tr></table></figure>
-<h2 id="4-添加『新浪微博秀』">4.添加<a href="http://app.weibo.com/tool/weiboshow" target="_blank" rel="external">『新浪微博秀』</a></h2><p>　　微博秀这个可以根据个人的意愿，得到的效果如我博客右侧那般。</p>
-<ol>
-<li>先在<a href="http://app.weibo.com/tool/weiboshow" target="_blank" rel="external">微博秀</a>开通一下，把得到的代码直接保存到<code>weibo.ejs</code>文件里，没有就新建一个；</li>
-<li>在主题配置文件的部件里加上微博秀。</li>
-</ol>
-<figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">widgets:</span><br><span class="line"><span class="bullet">- </span>weibo</span><br></pre></td></tr></table></figure>
-<h2 id="5-添加『友情链接』">5.添加『友情链接』</h2><p>　　友情链接的文件在<code>links</code>文件里面添加，同样需要在主题配置文件中设置显示。在<code>&lt;ul&gt;</code>和<code>&lt;/ul&gt;</code>标签之间添加，格式参考<br><figure class="highlight erb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"linkslist"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"asidetitle"</span>&gt;</span></span>&lt;%=<span class="ruby"> _<span class="number">_</span>(<span class="string">'links'</span>) </span>%&gt;<span class="xml"><span class="tag">&lt;/<span class="title">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">ul</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="title">li</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"http://qjzhixing.com"</span> <span class="attribute">title</span>=<span class="value">"起今知行"</span>&gt;</span>起今知行<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="title">li</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"http://sikaoa.com"</span> <span class="attribute">title</span>=<span class="value">"思考啊|剑飞在思考"</span>&gt;</span>剑飞在思考<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="title">ul</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure></p>
-<h1 id="二、Hexo的几款插件">二、Hexo的几款插件</h1><p>　　Hexo里面默认有一些插件，这里推荐几款可能对个人有用的插件。输入对应的命令安装一下，然后设置一下就可以。</p>
-<h2 id="1-导入『Wordpress数据』">1.导入『Wordpress数据』</h2><p>　　开篇我说过我写博客的基本经历，是从Wordpress转移过来的，写了一段时间之后，文章全部在那里面，如果一篇篇的复制粘贴那工作量就太大了。好在Hexo提供了Wordpress插件，可以一次性把wordpress数据导入到Hexo博客，html文件都转换成了Markdown文件，非常的方便，有图片的更改一下图片的路径就好了。</p>
-<ol>
-<li>首先导出wordpress数据，得到的回事一个xml格式的文件，先把这个复制到Hexo文件夹下，假设文件是wordpress.xml。</li>
-<li>安装好wordpress插件，再使用迁移命令就可以实现从Wordpress到Hexo的转移。</li>
-</ol>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="operator"><span class="keyword">install</span> hexo-migrator-wordpress <span class="comment">--save</span></span><br><span class="line">hexo migrate wordpress wordpress.<span class="keyword">xml</span></span></span><br></pre></td></tr></table></figure>
-<h2 id="2-添加『RSS订阅』和『百度sitemap』">2.添加『RSS订阅』和『百度sitemap』</h2><p>　　RSS订阅和百度sitemap<em>（站点地图，方便搜索引擎的收录）</em>的安装和设置做法相似，所以放在一起说明。输入的命令分别是：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="operator"><span class="keyword">install</span> hexo-generator-feed <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-generator-baidu-sitemap <span class="comment">--save</span></span></span><br></pre></td></tr></table></figure></p>
-<p>　　然后在博客配置文件<code>_config.yml</code>中添加启动<br><figure class="highlight haml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">plugins:</span><br><span class="line">-<span class="ruby"> hexo-generator-feed</span><br><span class="line"></span>-<span class="ruby"> hexo-generator-baidu-sitemap</span></span><br></pre></td></tr></table></figure></p>
-<p>　　对于百度地图，还需要添加<br><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#sitemap</span></span><br><span class="line"><span class="label">baidusitemap:</span></span><br><span class="line">    path: baidusitemap.xm</span><br></pre></td></tr></table></figure></p>
-<p>　　添加好了之后，测试一下RSS和百度地图是否生效，百度地图是访问<code>qjzhixing.com/sitemap.xml</code>可以查看，如果能正常访问说明可用。</p>
-<h2 id="3-添加『CNZZ统计/百度统计』">3.添加『CNZZ统计/百度统计』</h2><p>　　CNZZ统计和百度统计都不算是Hexo的插件，但我个人觉得还是充当了插件的作用，所以就放在了这里。做法是先注册账号，然后添加网址就设置好了。CNZZ和百度统计的设置和做法相似，两种统计我都有测试过，没有问题。是先试过百度的，然后转换到了CNZZ上，所以就那CNZZ作为例子说明一下。<br>1.在<a href="http://tongji.cnzz.com/main.php?c=user&amp;a=reg" target="_blank" rel="external">CNZZ网站</a>注册一个账号，添加网站后，得到各个形式的代码，任选其一；<br>2.在<code>D:\Hexo\themes\jacman\layout\_partial</code>文件夹下新建一个<code>cnzz_tongji.ejs</code>文件，把你的代码粘贴在第一行和最后一行之间（中间是我的，替换成你自己的）；<br><figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;% <span class="keyword">if</span> (theme.cnzz)&#123; <span class="variable">%&gt;</span></span><br><span class="line">&lt;script type=<span class="string">"text/javascript"</span>&gt;</span><br><span class="line">	var cnzz_protocol = ((<span class="string">"https:"</span> == document.location.protocol) ? <span class="string">" https://"</span> : <span class="string">" http://"</span>);</span><br><span class="line">	document.<span class="keyword">write</span>(unescape(<span class="string">"<span class="variable">%3Cspan</span> id='cnzz_stat_icon_1256211004'<span class="variable">%3E</span><span class="variable">%3C</span>/span<span class="variable">%3E</span><span class="variable">%3Cscript</span> src='"</span> + cnzz_protocol + <span class="string">"s95.cnzz.com/z_stat.php<span class="variable">%3Fid</span><span class="variable">%3D1256211004</span><span class="variable">%26show</span><span class="variable">%3Dpic</span>' type='text/javascript'<span class="variable">%3E</span><span class="variable">%3C</span>/script<span class="variable">%3E</span>"</span>));</span><br><span class="line">&lt;<span class="regexp">/script&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span></span><br></pre></td></tr></table></figure></p>
-<p>3.在footer.ejs文件中适当的位置添加你的代码，这是我的代码；<br><figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=<span class="string">"text/javascript"</span>&gt;</span><br><span class="line">    var cnzz_protocol = ((<span class="string">"https:"</span> == document.location.protocol) ? <span class="string">" https://"</span> : <span class="string">" http://"</span>);</span><br><span class="line">    document.<span class="keyword">write</span>(unescape(<span class="string">"<span class="variable">%3Cspan</span> id='cnzz_stat_icon_1256211004'<span class="variable">%3E</span><span class="variable">%3C</span>/span<span class="variable">%3E</span><span class="variable">%3Cscript</span> src='"</span> + cnzz_protocol + <span class="string">"s95.cnzz.com/z_stat.php<span class="variable">%3Fid</span><span class="variable">%3D1256211004</span><span class="variable">%26show</span><span class="variable">%3Dpic</span>' type='text/javascript'<span class="variable">%3E</span><span class="variable">%3C</span>/script<span class="variable">%3E</span>"</span>));</span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure></p>
-<p>4.在主题配置文件中加入下面代码启用CNZZ统计，注意不要添加站点id，填了的话就不显示图标了。<br><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">## Analytics</span></span><br><span class="line">cnzz_tongji: <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
-<h1 id="三、购买和绑定顶级域名（可选）">三、购买和绑定顶级域名（可选）</h1><p> 　　域名的购买多数人都推荐在<a href="https://mya.godaddy.com/" target="_blank" rel="external">Godaddy</a>购买，我的<code>qjzhixing.com</code>这个域名也是。名气较大，支持支付宝付款。解析和管理域名在<a href="https://www.dnspod.cn/" target="_blank" rel="external">Dnspod</a>上面进行，两个都需要注册，这个简单不用说，说下实现域名绑定的过程。<br>1.把购买好的域名添加到Dnspod里面，得到两个默认的NS地址，此时顺便添加以下A记录，主机记录有两个：<code>@</code>和<code>www</code>，记录类型默认<code>A</code>，而且记录值都一样，填写<code>192.30.252.153</code>；</p>
-<p><img src="http://i1.tietuku.com/d1f02fb064c46bec.png" alt=""><br>2.使用Dnspod解析域名的话，就要将GoDaddy的NS设置为Dnspod提供的地址。做法是在GoDaddy的<code>Nameservers</code>里面添加Dnspod的NS，也就是图中中间的那两个记录值。</p>
-<p><img src="http://i3.tietuku.com/7225fff95c8eebbd.png" alt=""><br>3.在博客的<code>D:\Hexo\source</code>目录下，新建名为<code>CNAME</code>的文本文件，没有后缀，在里面添加你的域名。比如我的就是<code>qjzhixing.com</code>，如果你想用<code>www.qjzhixing.com</code>域名就在里面填相应的域名。添加之后尽量就不要改了。</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">qjzhixing</span><span class="class">.com</span></span><br></pre></td></tr></table></figure>
-<p>　　注意，绑定好了有可能还需要等待一段时间才能生效。我绑定域名的过程进展不是那么的顺利，原因是收不到<code>GoDaddy</code>的验证邮件。没有验证邮件是无法添加Dnspod的NS地址的，也就不能实现绑定。试过QQ邮箱、163邮箱，最后换到了Gmail邮箱都不行，奇怪的是，自己注册和买域名的时候能受到邮件，但是就是验证邮件收不到，垃圾箱里面也没有。没有办法，只得在网上找GoDaddy的客服，等待了11分钟之后客服回话了，给重新发了一封验证邮件，问题终于解决了。所以，如果遇到什么问题，还是要找对Keyman。</p>
-<h1 id="四、写在后面">四、写在后面</h1><p>　　到这里，博客的搭建和装修工作也先告一段落了。如果还有其他的什么需求，自己利用搜索引擎搜索一下，都能找到相应的解决办法。我搭建博客过程中走了不少的弯路，先是在Jekyll上浪费了一些时间，后来又是更换了两三个主题，中间可以说是浪费了一些时间。好在基本的问题都已经解决了。<br>　　至于浪费时间，我也有过考虑。一方面，从不懂到勉强入门谁都要经过一个摸索的过程，这是事实；其次，在你解决一个个问题中，你会收获成就感，也会收获挫败感，这也算是丰富了自己的经历，而没有尝试肯定得不到这样美妙的体验。所以，即使花费了不少的时间，也还是值得的。<br>　　最后的最后，需要重点感谢<a href="http://zipperary.com/" target="_blank" rel="external">赵兄</a>在这个过程中给自己提供的帮助，非常热情的一位朋友，不吝赐教。我也是遇到了好多的问题就去找他的麻烦，好在，赵兄人非常不错，也很有耐心。如果没有他的帮助，可能博客的上线还要推迟一些时间。十分感谢！！！</p>
-<ul>
-<li><a href="http://zipperary.com/2013/05/28/hexo-guide-2/" target="_blank" rel="external">hexo系列教程：（二）搭建hexo博客</a></li>
-<li><a href="http://zipperary.com/2013/05/29/hexo-guide-3/" target="_blank" rel="external">hexo系列教程：（三）hexo博客的配置、使用</a></li>
-<li><a href="http://zipperary.com/2013/05/30/hexo-guide-4/" target="_blank" rel="external">hexo系列教程：（四）hexo博客的优化技巧</a></li>
-<li><a href="http://zipperary.com/2013/06/02/hexo-guide-5/" target="_blank" rel="external">hexo系列教程：（五）hexo博客的优化技巧续</a></li>
-<li><a href="http://www.isetsuna.com/hexo/install-config/" target="_blank" rel="external">Hexo博客系列（二）：安装和配置</a></li>
-<li><a href="http://www.isetsuna.com/hexo/theme-plugin/" target="_blank" rel="external">Hexo博客系列（三）：主题和插件</a></li>
-</ul>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>　　<a href="http://qjzhixing.com/2015/08/27/">上一篇</a>是博客配置相关的说明。这一篇也算是收尾了，基本是一些博客的小部件，和一些可以自己添加的插件，这些都是自己尝试成功了的，所以这里也算是总结一下。文章写到这里，可能就是一些比]]>
-    </summary>
-    
-      <category term="Hexo" scheme="http://qjzhixing.com/tags/Hexo/"/>
-    
-      <category term="效率软件" scheme="http://qjzhixing.com/categories/%E6%95%88%E7%8E%87%E8%BD%AF%E4%BB%B6/"/>
     
   </entry>
   
